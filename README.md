@@ -14,6 +14,7 @@
 |------|------|------|------|
 | 1037 | [약수제곱성질](https://www.acmicpc.net/problem/1037) | 약수 | [🔗 Velog](http://notyet) |
 | 17427 | [약수배수성질](https://www.acmicpc.net/problem/17427) | 약수 | [🔗 Velog](http://notyet) |
+| 4375 | [나머지연산산](https://www.acmicpc.net/problem/4375) | 완전탐색, 나머지 | [🔗 Velog](http://notyet) |
 
 
 
