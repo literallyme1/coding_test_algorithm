@@ -12,11 +12,11 @@
 
 | 번호  | 문제 | 키워드 | 풀이 |
 |------|------|------|------|
-| 1037 | [약수제곱성질](https://www.acmicpc.net/problem/1037) | 약수성질개념 | [🔗 Velog](http://notyet) |
-| 4375 | [나머지연산](https://www.acmicpc.net/problem/4375) | 완전탐색, 나머지 | [🔗 Velog](http://notyet) |
-| 17427 | [약수배수성질](https://www.acmicpc.net/problem/17427) | 약수, 누적합 | [🔗 Velog](http://notyet) |
-| 17425 | [약수배수성질](https://www.acmicpc.net/problem/17425) | 약수, 누적합 | [🔗 Velog](http://notyet) |
-| 2609 | [나머지연산](https://www.acmicpc.net/problem/2609) | gcd,lcm 기본개념 | [🔗 Velog](http://notyet) |
+| 1037 | [약수제곱성질](https://www.acmicpc.net/problem/1037) | 약수성질개념 |  |
+| 4375 | [나머지연산](https://www.acmicpc.net/problem/4375) | 완전탐색, 나머지 |  |
+| 17427 | [약수배수성질](https://www.acmicpc.net/problem/17427) | 약수, 누적합 | |
+| 17425 | [약수배수성질](https://www.acmicpc.net/problem/17425) | 약수, 누적합 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-17425-%EC%95%BD%EC%88%98%EC%9D%98-%ED%95%A9-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4) |
+| 2609 | [gcp,lcm](https://www.acmicpc.net/problem/2609) | gcd,lcm 기본개념 |  |
 
 
 
