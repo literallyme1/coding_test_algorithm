@@ -4,7 +4,7 @@
 
 import sys
 
-#에라토스테네스의 체를 사용하여 범위 내 모든 소수를 찾는 함수수
+#에라토스테네스의 체를 사용하여 범위 내 모든 소수를 찾는 함수 
 def sieve_of_eratosthenes(limit):
     
     is_prime = [True] * (limit + 1) #처음 모든 수를 소수로 가정
