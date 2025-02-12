@@ -1,3 +1,7 @@
+#백준 6588번 
+# URL : https://www.acmicpc.net/problem/6588
+#PyPy3 Code
+
 import sys 
 
 def sieve_of_eratosthenes(MAX):

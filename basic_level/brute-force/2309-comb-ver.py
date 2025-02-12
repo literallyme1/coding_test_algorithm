@@ -1,3 +1,7 @@
+#백준 2309번 
+# URL : https://www.acmicpc.net/problem/2309
+#PyPy3 Code
+
 import sys
 from itertools import combinations 
 

@@ -1,3 +1,7 @@
+#백준 2309번 
+# URL : https://www.acmicpc.net/problem/2309
+#PyPy3 Code
+
 import sys 
 
 heights = [int(sys.stdin.readline().strip()) for _ in range(9)]
@@ -14,7 +18,7 @@ for i in range(9): #첫번 째 제외할 난쟁이
             result.sort()
             #출력이 밖으로 가면 result 가 있는 지 확인부터 해야 함. 
             for h in result: 
-            print(h)
+                print(h)
             
             found = True
             break

@@ -19,6 +19,9 @@
 | 2609 | [gcp,lcm](https://www.acmicpc.net/problem/2609) | gcd,lcm 기본개념 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-2609-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98-%EA%B5%AC%ED%95%98%EB%8A%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
 | 1929 | [소수](https://www.acmicpc.net/problem/1929) | 여러소수판별 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-1978-1929-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%EC%86%8C%EC%88%98-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
 | 1978 | [소수](https://www.acmicpc.net/problem/1978) | 단일소수판별 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-1978-1929-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%EC%86%8C%EC%88%98-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
+| 6588 | [소수](https://www.acmicpc.net/problem/6588) | 여러소수판별 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-2309%EB%B2%88-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-%EC%86%8C%EC%88%98-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
+| 2309 | [소수](https://www.acmicpc.net/problem/2309) | 완전탐색, 조합 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-2309%EB%B2%88-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-%EC%86%8C%EC%88%98-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
+
 
 
 
