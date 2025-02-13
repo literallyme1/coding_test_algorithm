@@ -20,7 +20,9 @@
 | 1929 | [소수](https://www.acmicpc.net/problem/1929) | 여러소수판별 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-1978-1929-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%EC%86%8C%EC%88%98-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
 | 1978 | [소수](https://www.acmicpc.net/problem/1978) | 단일소수판별 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-1978-1929-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%EC%86%8C%EC%88%98-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
 | 6588 | [소수](https://www.acmicpc.net/problem/6588) | 여러소수판별 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-2309%EB%B2%88-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-%EC%86%8C%EC%88%98-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
-| 2309 | [소수](https://www.acmicpc.net/problem/2309) | 완전탐색, 조합 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-2309%EB%B2%88-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-%EC%86%8C%EC%88%98-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
+| 2309 | [난쟁이](https://www.acmicpc.net/problem/2309) | 완전탐색, 조합 | [🔗 Velog](https://velog.io/@literallyme/%EB%B0%B1%EC%A4%80-2309%EB%B2%88-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-%EC%86%8C%EC%88%98-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
+| 3085 | [캔디크러쉬쉬](https://www.acmicpc.net/problem/3085) | 완전탐색 | |
+| 1476 | [년도문제](https://www.acmicpc.net/problem/1476) | 완전탐색 | |
 
 
 
