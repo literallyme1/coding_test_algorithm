@@ -1,4 +1,6 @@
-
+#백준 1107번 
+# URL : https://www.acmicpc.net/problem/1107
+#PyPy3 Code
 
 def min_press(N, broken_buttons):
     min_count = abs(N - 100) # +1, -1 만 사용했을 때 눌러야 하는 버튼
