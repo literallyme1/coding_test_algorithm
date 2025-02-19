@@ -24,6 +24,11 @@
 | 3085 | [캔디크러쉬](https://www.acmicpc.net/problem/3085) | 완전탐색 | [🔗 Velog](https://velog.io/@literallyme/3805%EB%B2%88-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-%EC%99%84%EC%A0%84%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98) |
 | 1476 | [년도문제](https://www.acmicpc.net/problem/1476) | 완전탐색 |  [🔗 Velog](https://velog.io/@literallyme/1476%EB%B2%88-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%EC%99%84%EC%A0%84%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
 | 1107 | [리모컨횟수](https://www.acmicpc.net/problem/1107) | 완전탐색 |  [🔗 Velog](https://velog.io/@literallyme/1107%EB%B2%88-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-%EC%99%84%EC%A0%84%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
+| 6064 | [반복주기달력](https://www.acmicpc.net/problem/6064) | 완전탐색, lcm 특징 | |
+| 1748 | [새로운수](https://www.acmicpc.net/problem/1748) | 완전탐색 | |
+| 9095 | [1, 2, 3의 합](https://www.acmicpc.net/problem/9095) | 완전탐색, DP | |
+| 15649 | [순열출력](https://www.acmicpc.net/problem/15649) | 완전탐색, DFS | |
+| 15650 | [조합출력](https://www.acmicpc.net/problem/15650) | 완전탐색, DFS | |
 
 
 

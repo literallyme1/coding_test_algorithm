@@ -1,3 +1,6 @@
+#백준 1748번 
+# URL : https://www.acmicpc.net/problem/1748
+#PyPy3 Code
 
 def count_digits(N):
     #총 자리개수 

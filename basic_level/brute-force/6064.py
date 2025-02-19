@@ -1,3 +1,7 @@
+#백준 6064번 
+# URL : https://www.acmicpc.net/problem/6064
+#PyPy3 Code
+
 import sys
 import math
 

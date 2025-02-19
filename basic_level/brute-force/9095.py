@@ -1,3 +1,7 @@
+#백준 9095번 
+# URL : https://www.acmicpc.net/problem/9095
+#PyPy3 Code
+
 import sys
 
 #최대 n이 10까지이므로 DP 테이블 크기 설정
