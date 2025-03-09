@@ -1,5 +1,9 @@
 #중복 순열
 
+#백준 15651번 
+# URL : https://www.acmicpc.net/problem/15651
+#PyPy3 Code
+
 #1. 입력받기 
 N, M = map(int, input().split())
 

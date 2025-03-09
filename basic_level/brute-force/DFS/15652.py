@@ -1,3 +1,7 @@
+#백준 15652번 
+# URL : https://www.acmicpc.net/problem/15652
+#PyPy3 Code
+
 #비내림차순 = 조합
 N, M = map(int, input().split())
 
