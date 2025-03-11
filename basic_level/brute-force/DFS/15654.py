@@ -1,4 +1,5 @@
 #중복없는 순열, 입력값 0
+#2,1 과 1,2 가 다르므로 start 대신 visted 사용 
 N,M = map(int, input().split())
 numbers = sorted(list(map(int, input().split())))
 
