@@ -29,6 +29,8 @@
 | 9095 | [1, 2, 3의 합](https://www.acmicpc.net/problem/9095) | 완전탐색, DP | |
 | 15649 | [순열출력](https://www.acmicpc.net/problem/15649) | 완전탐색, DFS | |
 | 15650 | [조합출력](https://www.acmicpc.net/problem/15650) | 완전탐색, DFS | |
+| 15651 | [중복순열출력](https://www.acmicpc.net/problem/15651) | 완전탐색, DFS | |
+| 15652 | [조합출력](https://www.acmicpc.net/problem/15652) | 완전탐색, DFS | |
 
 
 
