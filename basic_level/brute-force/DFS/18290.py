@@ -1,3 +1,7 @@
+#백트래킹(DFS) + 중복조합 + 입력값
+#백준 18290번 
+# URL : https://www.acmicpc.net/problem/18290
+#PyPy3 Code
 
 N, M, K = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(N)]
