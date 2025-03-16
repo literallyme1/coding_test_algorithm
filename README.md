@@ -31,11 +31,18 @@
 | 15650 | [조합출력](https://www.acmicpc.net/problem/15650) | 완전탐색, DFS | |
 | 15651 | [중복순열출력](https://www.acmicpc.net/problem/15651) | 완전탐색, DFS | |
 | 15652 | [조합출력](https://www.acmicpc.net/problem/15652) | 완전탐색, DFS | |
+| 15654 | [순열출력](https://www.acmicpc.net/problem/15654) | 완전탐색, DFS | |
+| 15655 | [조합출력](https://www.acmicpc.net/problem/15655) | 완전탐색, DFS | |
+| 15656 | [중복순열출력](https://www.acmicpc.net/problem/15656) | 완전탐색, 백트래킹 | |
+| 18290 | [중복조합출력](https://www.acmicpc.net/problem/18290) | 완전탐색, DFS | |
+| 1759 | [조건조합출력](https://www.acmicpc.net/problem/1759) | 완전탐색, 백트래킹 | |
+| 14501 | [상담최대수익출력](https://www.acmicpc.net/problem/14501) | dp | |
+| 14889 | [팀배치후능력치](https://www.acmicpc.net/problem/14889) | 완전탐색, 백트래킹현실적용 ||
+| 2529 | [부등호조건만족출력](https://www.acmicpc.net/problem/2529) | 완전탐색, 순열 | |
 
 
 
-
----
+---s
 
 ## 🎯 **테이블 설명**
 ✔ 베이직 문제는 기초적인 개념 학습 위주의 문제   

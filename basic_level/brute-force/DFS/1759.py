@@ -1,3 +1,7 @@
+#백준 1759번 
+# URL : https://www.acmicpc.net/problem/1759
+#PyPy3 Code
+
 from itertools import combinations
 
 # 입력 받기

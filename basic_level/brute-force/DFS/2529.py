@@ -1,5 +1,9 @@
 #순열 
 
+#백준 2529번 
+# URL : https://www.acmicpc.net/problem/2529
+#PyPy3 Code
+
 k = int(input()) #부등호 개수
 signs = input().split()#부등호 입력 
 
