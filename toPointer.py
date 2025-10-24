@@ -5,16 +5,18 @@ def if_palindrome(s):
     while  a < l:
         if not s[a].isalnum():
             a += 1
+            continue
         if not s[l].isalnum():
             l -= 1
-        if s[a] != s[l]:
+            continue
+        if s[a].lower() != s[l].lower():
             return False
         a += 1
         l -= 1
     return True
 
 ## 대소문자, 영숫자
-s = input().lower().replace(" ", "")
+s = input().replace(" ", "")
 print(str(if_palindrome(s)))
 
 
