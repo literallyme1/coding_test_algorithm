@@ -11,3 +11,6 @@ for right in range(4, len(a)):
     result = max(result, sum)
 
 print(result)
+
+
+#7일차 
