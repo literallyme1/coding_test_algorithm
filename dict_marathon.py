@@ -2,6 +2,27 @@ participant = ["leo", "kiki", "eden"]
 completion = ["eden", "kiki"]
 
 from collections import Counter
+
+#2일차 풀이 
+participant_count = Counter(participant)
+completion_count = Counter(completion)
+
+total_count = participant_count - completion_count
+
+print(list(total_count.keys())[0])
+
+
+print(type(total_count.keys()))
+
+
+
+
+
+
+
+
+
+
 # participant_count = Counter(participant)
 
 
@@ -16,13 +37,13 @@ from collections import Counter
 # for i in participant_count.keys():
 #     print(i)
 
-participant_count = Counter(participant)
-completion_count = Counter(completion)
+# participant_count = Counter(participant)
+# completion_count = Counter(completion)
 
-diff = participant_count - completion_count
-print(list(diff.keys())[0])
+# diff = participant_count - completion_count
+# print(list(diff.keys())[0])
 
-print(type(diff.keys()))
+# print(type(diff.keys()))
 
 
 
