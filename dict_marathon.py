@@ -12,11 +12,6 @@ total_count = participant_count - completion_count
 print(list(total_count.keys())[0])
 
 
-print(type(total_count.keys()))
-
-
-
-
 
 
 
