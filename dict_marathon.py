@@ -10,12 +10,7 @@ completion_count = Counter(completion)
 total_count = participant_count - completion_count
 
 print(list(total_count.keys())[0])
-#/.
-
-
-
-
-
+#,]/
 
 
 # participant_count = Counter(participant)
