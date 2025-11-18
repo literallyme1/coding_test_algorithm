@@ -1,28 +1,29 @@
 
-#input
-from collections import defaultdict, Counter
-import sys 
+from collections import defaultdict
 
-edge_dict = defaultdict(list)
-edge_num_dict = defaultdict(int)
-edge_list = eval(sys.stdin.readline())
-print(edge_list)
+def solution(edges):
+    #들어오는 간선
+    indeg = defaultdict(int)
+    #나가는 간선
+    outdeg = defaultdict(int)
+
+    for a, b in edges:
+        outdeg[a] += 1
+        indeg[b] += 1
+
+    nodes = set(indeg.keys()) | set(outdeg.keys())
+
+    #정점 (들어오는 간선 0, 나가는 간선 2개 이상)
+    center = next(x for x in nodes if indeg[x] == 0 and outdeg[x] >= 2)
+
+    # 제너레이터 ( x for x in list if 조건문 -> 제일 앞 bool, value 변형 가능, bool 일 때 true 일 시 1)
+    bar = sum(outdeg[x] == 0 for x in nodes if x != center)
+    eight = sum(indeg[x] >= 2 for x in nodes if x != center)
+
+    donut = outdeg[center] -  bar - eight
+
+    return [center, donut, bar, eight]
 
 
-#간선 정보 획득
-for i in edge_list:
-    edge_dict[i[1]].append(i[0])
-    edge_num_dict[i[1]] += 1
-
-print(edge_num_dict.items())
 
 
-
-#정점 찾기
-
-#center 는 엣지가 하나도 없는 것이 해당. 
-# 어떻게 얻을 지는 고민 
-
-# 연관관계 파악
-
-for i in edge_num_dict:
