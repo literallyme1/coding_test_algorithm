@@ -2,7 +2,7 @@ from collections import deque
 
 # 헬퍼 함수: 두 집합 사이에서 짝(target)을 찾으면 제거하고 True 반환
 def check_pair(group1, group2, target):
-    for card in list(group1):  # set을 list로 바꿔서 순회 (중간에 삭제하려고)
+    for card in list(group1):  # set을 list로 바꿔서 순회
         mate = target - card
         
         # 짝꿍이 존재하는가?
