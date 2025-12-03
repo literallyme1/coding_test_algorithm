@@ -1,5 +1,3 @@
-from itertools import combinations, product
-from bisect import bisect_left
 ## 최적 코드 
 from itertools import combinations, product
 from bisect import bisect_left
