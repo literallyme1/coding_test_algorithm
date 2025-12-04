@@ -1,51 +1,53 @@
 from collections import deque
 
-def compare_cards(target, a, b, coin, coin_num):
-    for i in a:
-        if target - i in b  and  coin >= coin_num:
-            print(i, target - i)
-            a.remove(i)
-            b.remove(target - i)
+def check_and_pay(deck1, deck2, target):
+    for card in list(deck1): #set -> list 복사본
+        partner = target - card
+        if partner in deck2:
+            deck1.remove(card)
+            deck2.remove(partner)
             return True
     return False
 
+
 def solution(coin, cards):
+    n = len(cards)
+    target = n + 1
+    my_hand = set(cards[:n//3])
+    pending = set() # 뽑았지만 내게 아닌 카드 리스트 
+    deck = deque(cards[n//3:])
+    turn = 1
 
-    picked_list = []
-    dis_num = len(cards) // 3
-    first_cards = cards[:dis_num]
-    last_cards = deque(cards[dis_num:])
-    round = 0
-    target = len(cards) + 1
-    # 1. 두개씩 가져오기
-    for i in range(len(last_cards) // 2):
-        picked_list.append(last_cards.popleft())
-        picked_list.append(last_cards.popleft())
-
-    # 2. 내 카드 중 낼 수 있는 거 확인
-
-        if compare_cards(target, first_cards, first_cards, coin, 0):
-            print("my_card + my_card")
-            round += 1
+    # 1. 두개씩 가져오기 (덱이 떨어질 때까지 진행)
+    while len(deck) >= 2:
+        card1 = deck.popleft()
+        card2 = deck.popleft()
+        pending.add(card1)
+        pending.add(card2)
+        
+# 2. 우선순위대로 낼 수 있는지 확인 (Greedy)
+        
+        # CASE 1: 내 손패만으로 해결 (코인 0개)
+        if check_and_pay(my_hand, my_hand, target):
+            turn += 1
             continue
-        # 3. 코인 1개 이상, 뽑은 것중(저번 것 포함) 같이 낼 수 있는 지 확인 
-        elif compare_cards(target, first_cards, picked_list, coin, 1):
-            print("my_card + picked_card")
-            round += 1
+            
+        # CASE 2: 내 손패 1장 + 후보군 1장 (코인 1개)
+        # 코인이 있고 && 짝을 찾으면
+        if coin >= 1 and check_and_pay(my_hand, pending, target):
             coin -= 1
+            turn += 1
             continue
-        # 4. 코인 2개 이상, 뽑은 2개 낼 수 있는 지 확인 
-        elif compare_cards(target, picked_list, picked_list, coin, 2):
-            print("my_card + picked_card")
-            round += 1
+            
+        # CASE 3: 후보군 2장 (코인 2개)
+        if coin >= 2 and check_and_pay(pending, pending, target):
             coin -= 2
+            turn += 1
             continue
-        else:
-            break
-    return round + 1
+    return turn
 
 
 cards = [1, 2, 3, 4, 5, 8, 6, 7, 9, 10, 11, 12]
 coin = 3
-round = solution(coin, cards)
-print(round)
+turn = solution(coin, cards)
+print(turn)
