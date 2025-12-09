@@ -1,35 +1,27 @@
 
 def solution(land):
 
-    #1. DP 배열 생성 
-    input_len = len(land)
-    dp1 = [0] * (input_len + 1)
-    dp2 = [0] * (input_len + 1)
-    dp3 = [0] * (input_len + 1)
+    n = len(land)
+    #1. DP 테이블 
+    dp = [ [0] *  4 for _ in range(n) ]
 
-    #2. 첫 값 
-    dp1[1], dp2[1], dp3[1] = 1
-    max_num = 0 
-    
-    #2. 같은 열 제외, 인덱스를 가는 3가지를 구하고 max 비교
+    dp[0] = land[0][:]
 
-    # 만약 첫 인덱스 가 1이면 제외 후 남은 인덱스 값을 넣음. 
-    index_list = [0,1,2,3].remove(0)
-    dp1[2] = land[0][index_list[0]]
-    dp2[2] = land[0][index_list[0]]
-    dp3[2] = land[0][index_list[0]]
+    #2. 두번 째 줄부터 계산
+    for i in range(1, n):
+        for j in range(4):
+            dp[i][j] = land[i][j] + max(dp[i-1][k] for k in range(4) if k != j) 
+
+    return max(dp[n-1])
 
 
-    for i in range(2,input_len + 1):
-        for 
-        
+print(solution([[1,2,3,5],[5,6,7,8],[4,3,2,1]]))
 
+def solution(land):
+    for i in range(1, len(land)):
+        land[i][0] += max(land[i-1][1], land[i-1][2], land[i-1][3])
+        land[i][1] += max(land[i-1][0], land[i-1][2], land[i-1][3])
+        land[i][2] += max(land[i-1][0], land[i-1][1], land[i-1][3])
+        land[i][3] += max(land[i-1][0], land[i-1][1], land[i-1][2])
 
-
-
-
-    #3. max 파악 
-
-
-
-solution([[1,2,3,5],[5,6,7,8],[4,3,2,1]])
+    return max(land[-1])
