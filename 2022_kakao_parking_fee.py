@@ -19,7 +19,7 @@ def solution(fees, records):
     print(car_list)
     for car_num in car_list: 
 
-        if car_dict[car_num] < 0:
+        if car_dict[car_num] <= 0:
             car_dict[car_num] +=  change_time_to_min("23:59")#23:59분 환산 시간 
         #요금 계산 
         #기본 시간만 주차했으면 
