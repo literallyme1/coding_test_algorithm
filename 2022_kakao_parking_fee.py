@@ -49,7 +49,7 @@ print(solution(fees, records))
 
 """
 
-
+# 리팩토링 버전 : 내 코드는 단기, 특정상황 -> 상태와, 누적합은 분리하는 게 맞다.
 import math 
 from collections import defaultdict
 
