@@ -1,5 +1,6 @@
 from collections import deque
 
+#set -> list 보다 요소 찾기 빠름. 
 def check_and_pay(deck1, deck2, target):
     for card in list(deck1): #set -> list 복사본
         partner = target - card
