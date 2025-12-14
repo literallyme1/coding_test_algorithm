@@ -59,6 +59,7 @@ def solution(fees, records):
     # 1. 자료구조 분리
     parking = {}             # 주차 중인 차 (번호: 입차시간)
     total_time = defaultdict(int) # 누적 주차 시간 (번호: 총 분)
+    #defaultDict 에 초기값 lamda 지정 가능
 
     # 2. 기록 순회 
     for record in records:
