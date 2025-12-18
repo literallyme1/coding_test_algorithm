@@ -2,6 +2,8 @@
 from collections import deque
 import sys
 
+sys.setrecursionlimit(10**6)
+
 def init_graph(n, m):
 
     graph = [[] for _ in range(N + 1)]
