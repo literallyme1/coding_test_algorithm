@@ -10,8 +10,6 @@ def solution(m, n, board):
             for row in range(n - 1):
                 window_list = [board[col][row], board[col + 1][row], board[col][row + 1], board[col + 1][row + 1]]
                 #만약 4개가 같다면 
-                #if set(window_list) != 0 and len(set(window_list)) == 1:
-                # if len(set(window_list)) == 1 and (0 for i in list(set(window_list))):
                 if len(set(window_list)) == 1 and board[col][row] != 0:
                     pop_list.extend([(col,row), (col + 1,row), (col,row + 1), (col + 1,row + 1)])
         
