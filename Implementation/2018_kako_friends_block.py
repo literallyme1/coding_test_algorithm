@@ -13,6 +13,7 @@
 
 def solution(n, m, board):
     board = [list(row) for row in board]
+    #컬럼 별 모으기 방법 모르겠음. 
     new_board = []
     for i in range(n):
         ex = []
@@ -20,6 +21,26 @@ def solution(n, m, board):
             ex.append(board[i][j])
         new_board.append(ex)
     print(new_board)
-
+    total_count = 0
+    while True:
+        window_list = []
+        #1. 4개 얻었는 지 확인 : 2*2 window = [(i,y),(i,y+1),(i ,y),(i+1,y)]
+        for x in range(n-1):
+            for y in range(m-1):
+                window = [new_board[x][y],new_board[x][y+1],new_board[x+1][y],new_board[x+1][y+1]]
+                if len(set(window)) == 1:
+                    window_list.append((x,y), (x,y+1), (x+1,y), (x+1,y+1))
+        #while 종료 문 
+        if len(window_list) == 0:
+            break        # 기록 list 넣고 set 으로 변경. 1차 끝 total_count += len(set_list)
+        total_count += len(set(window_list))
+        for x, y in list(set(window_list)):
+            new_board[x][y] = 0
+        # 2-1. for i in set(인덱스) -> board를 0 변경 2-2. 리스트를 세로로 뽑아서 처리 → 0은 앞에만 두기
+        for i in new_board:
+            #앞에 넣기 (?)
+            pass
+    return total_count
+        
 
 solution(4, 5, ["CCBDE", "AAADE", "AAABF", "CCBBF"])
