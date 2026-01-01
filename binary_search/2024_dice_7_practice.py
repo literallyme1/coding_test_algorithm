@@ -37,7 +37,7 @@ def solution(dice):
         if wins > max_wins:
             max_wins = wins
             # 0-index를 1-index로 변환해서 저장
-            answer = [x + 1 for x in a_indices]
+            answer = [x + 1 for x in a_indices.index()]
             
     return answer
 """
