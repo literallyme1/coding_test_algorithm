@@ -17,3 +17,36 @@
 
 # [Output] 가 골라야 하는 주사위 번호를 오름차순으로 1차원 정수 배열
 #win update, 관련 번호도 업데이트, max_win return, 주사위 번호+1
+
+from itertools import product, combinations
+from bisect import bisect_left
+
+def solution(dices):
+    n = len(dices)
+    dices_index = [ i for i in range(n)]
+    max_wins = 0
+    wins_dice_index = []
+    for indexs in combinations(dices_index, n//2):
+        #1. A가 먼저 n / 2개의 주사위 ->  B가 남은 n / 2
+        a_dices = [dices[i] for i in indexs]
+
+        b_dices = [i for i in dices if  i not in a_dices] # 저 인덱스를 제외하고 어떻게 하지 
+        a_sums = [sum(a) for a in product(*a_dices)] # 하나씩 뽑아주나봄. (* 까먹음)
+        b_sums = [sum(a) for a in product(*b_dices)]
+        b_sums.sort()
+
+        wins = 0
+        for i in a_sums: 
+            wins += bisect_left(b_sums, i)
+        if wins > max_wins:
+            max_wins = wins
+            wins_dice_index = list(indexs)
+
+    return [index + 1 for index in wins_dice_index]
+
+
+        
+
+
+
+print(solution([[1, 2, 3, 4, 5, 6], [2, 2, 4, 4, 6, 6]]))
