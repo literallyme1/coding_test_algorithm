@@ -1,4 +1,3 @@
-
 from collections import deque
 import sys
 
@@ -26,7 +25,7 @@ def dfs(current_node):
             dfs(next_node)
 
 
-input = sys.stdin.readline
+# input = sys.stdin.readline
 # 노드 수, 간선 수, 시작 노드 번호 
 N, M, V = map(int, input().split())
 visited_dfs = [False] * (N + 1) # 1부터 시작 
