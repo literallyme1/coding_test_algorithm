@@ -20,8 +20,46 @@
 
 
 #[Output] [생성한 정점의 번호, 도넛 모양 그래프의 수, 막대 모양 그래프의 수, 8자 모양 그래프의 수]
+from collections import defaultdict
+
+def solution(edges):
+
+  in_nodes = defaultdict(list)
+  out_nodes = defaultdict(list)
+  #노드, 간선 파악 
+  for [i, j] in edges:
+    in_nodes[j].append(i)  #TypeError: 'builtin_function_or_method' object is not subscriptable => 함수(메서드)를 리스트처럼 [ ] 로 접근했다 => in_nodes[i].append(j)
+    out_nodes[i].append(j)
+  
+  nodes = set(out_nodes.keys()) #in_node 가 아니라 out 을 가져왔어야 
+  print(nodes)
+  center = -1
+  total = 0
+  #쟁점 파악 (개수 알 수 있음.)
+  for node in nodes:
+    if len(out_nodes[node]) >= 2 and len(in_nodes[node]) == 0:
+        center =  node 
+        total = len(out_nodes[node])
+  
+  stick = 0
+  eight = 0
+  donut = 0
+  for node in nodes:
+    if len(in_nodes[node]) == 1 and len(out_nodes[node]) == 0:
+        stick += 1
+    elif len(in_nodes[node]) >= 2 and len(out_nodes[node]) == 2:
+       eight += 1 
+  
+  donut = total - stick - eight
+
+  return [center, donut, stick, eight]
+    # 가능?
+  # for [a, b] in edges:
+  #    in_list
 
 
 
+print(solution([[2, 3], [4, 3], [1, 1], [2, 1]]))
+  
 
 

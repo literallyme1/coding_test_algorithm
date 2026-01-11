@@ -31,8 +31,8 @@ def solution(rows, columns, queries):
             square_list.append((i, y1))
         
         #3. 최솟값 넣기 
-        (r, c) = min(square_list)
-        min_list.append(graph[r][c])
+        values = [graph[r][c] for r, c in square_list]
+        min_list.append(min(values))
         #4. 회전 
         rotation = deque(square_list)
         rotation.rotate()
