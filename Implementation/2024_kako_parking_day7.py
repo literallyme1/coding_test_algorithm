@@ -39,3 +39,48 @@ Docstring for Implementation.2024_kako_parking_day7
 - 시간 <= 기본: `기본요금`
   - 시간 > 기본: `기본 + Math.ceil((시간-기본)/단위) * 단위요금` (double 이어야 ceil 가능)
 """
+from collections import defaultdict
+import math
+
+def getTime(time):
+  hour, min = map(int, time.split(":"))
+  return hour * 60 + min
+
+
+def solution(fees, records):
+  inMap = defaultdict(int)
+  accMap = defaultdict(int)
+
+  #1. record 전처리 후 정보 입력 
+  for record in records:
+      time, car_num, type = record.split()
+      time = getTime(time)
+
+      if type == "IN":   
+        inMap[car_num] = time
+      else:
+          in_time = inMap[car_num]
+          total = time - in_time
+          accMap[car_num] += total 
+          del inMap[car_num]
+  
+  #2. 남은 차 계산
+  last_time = getTime("23:59")
+  for key in inMap.keys():
+      accMap[key] += (last_time - inMap[key])
+  
+  #3. 요금 계산 
+  basic_time, basic_fee, over_min, over_fee = fees
+  total_fees = []
+  all_car = sorted(set(accMap.keys()))
+  for car in all_car:
+      if accMap[car] <= basic_time:
+          total_fees.append(basic_fee)
+      else:
+          total_fees.append(basic_fee + math.ceil((accMap[car] - basic_time) / over_min) * over_fee)
+  return total_fees
+          
+      
+
+    
+print(solution([180, 5000, 10, 600],	["05:34 5961 IN", "06:00 0000 IN", "06:34 0000 OUT", "07:59 5961 OUT", "07:59 0148 IN", "18:59 0000 IN", "19:09 0148 OUT", "22:59 5961 IN", "23:00 5961 OUT"]))
