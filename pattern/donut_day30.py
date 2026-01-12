@@ -32,7 +32,6 @@ def solution(edges):
     out_nodes[i].append(j)
   
   nodes = set(out_nodes.keys()) #in_node 가 아니라 out 을 가져왔어야 
-  print(nodes)
   center = -1
   total = 0
   #쟁점 파악 (개수 알 수 있음.)
