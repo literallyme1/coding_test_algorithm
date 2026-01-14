@@ -2,7 +2,7 @@
 #[Input] land (n <100,000)
 #[Logic] graph[n][4] 
 # dp[0] -> 그대로 
-#for row in range(n):
+#for row in range(1, n):
     #dp[row][0] = max([dp[이전][j] for j in range(4) if i != 0]) + dp[row][0](기존 현재값)
     #dp[row][1] = max(dp[이전][j] for j in range(4) if i != 1)+ dp[row][0](기존 현재값)
     #dp[row][2] = max(dp[이전][j] for j in range(4) if i != 2)+ dp[row][0](기존 현재값)
