@@ -43,10 +43,12 @@ def solution(n, graph):
         for j in range(n):
             if graph[i][j] == 1:
                 queue.append((i, j))
+                graph[row][col] = 0 #자신 처리 X
                 count = 0
                 while len(queue) > 0:
                     row, col = queue.popleft() 
-                    if graph[row + 1][col] == 1: #하
+
+                    if graph[row + 1][col] == 1: #하 #인덱싱 조건확인 X 
                         queue.append((row + 1, col))
                         graph[row + 1][col] = 0 
                         count += 1
@@ -69,7 +71,7 @@ def solution(n, graph):
                 count_list.append(count) 
 
     print(count_list)
-    return count_list.sort()
+    return sorted(count_list)
 
 test_input = """7
 0110100
