@@ -10,3 +10,15 @@
 
 #같은 열을 연속 X
 #[Output] return 점수의 최대값 max(dp[-1]) 
+
+
+def solution(land):
+    for row in range(1, len(land)):
+        land[row][0] += max([land[row - 1][j] for j in range(4) if j != 0])
+        land[row][1] += max(land[row - 1][j] for j in range(4) if j != 1)
+        land[row][2] += max(land[row - 1][j] for j in range(4) if j != 2)
+        land[row][3] += max(land[row - 1][j] for j in range(4) if j != 3)
+
+    return max(land[-1])
+
+print(solution([[1,2,3,5],[5,6,7,8],[4,3,2,1]]))
