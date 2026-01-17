@@ -7,3 +7,19 @@
 
 #[OutPut] 구명보트 개수의 최솟값
 
+
+def solution(people, limit):
+    people.sort()
+    first  =  0 
+    final = len(people) - 1
+    count = 0
+    while first <= final:
+        if people[first] + people[final] <= limit:
+            first += 1
+
+        
+        final -= 1 
+        count += 1 
+    return count
+
+print(solution([70, 80, 50], 100))
