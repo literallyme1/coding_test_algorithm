@@ -6,6 +6,7 @@
 
 from collections import deque
 def solution(cacheSize, cities):
+    cities = [ city.lower() for city in cities]
     if cacheSize == 0:
         return 0
     cache_list = deque(maxlen=cacheSize)
