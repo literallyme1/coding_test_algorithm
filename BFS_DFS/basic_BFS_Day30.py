@@ -28,5 +28,7 @@ for _ in range(line) :
     n1, n2 = map(int, input().split())
     node_dict[n1].append(n2)
     node_dict[n2].append(n1)
-print(node_dict)
+#dict 로 한다면 sort 는 어떻게 하지? 
+for key, value in node_dict.items():
+    node_dict[key] = sorted(value)
 
