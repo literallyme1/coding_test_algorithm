@@ -4,5 +4,5 @@
 # re.sub('/.{2:}','.', new_id)
 #new_id.strip(".")
 # if not new_id new_id "a"
-#new_id{:15}
+#new_id[]:15]
 #while len(new_id) <3 : +
