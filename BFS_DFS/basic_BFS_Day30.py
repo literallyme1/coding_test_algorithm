@@ -12,7 +12,19 @@ import sys
 #while queue > 0 
 #[Output] 결과 
 
-
+def solution(begin, node_dict):
+    visited_list = set()
+    queue = deque()
+    queue.append(begin)
+    visited_list.add(begin)
+    while len(queue) > 0:
+        now = queue.popleft()
+        print(now, end=" ")
+        for i in node_dict[now]:
+            if i not in visited_list:
+                queue.append(i)
+                visited_list.add(i)
+    
 testI0 = """4 5 1
 1 2
 1 3
@@ -32,3 +44,4 @@ for _ in range(line) :
 for key, value in node_dict.items():
     node_dict[key] = sorted(value)
 
+solution(begin, node_dict)
