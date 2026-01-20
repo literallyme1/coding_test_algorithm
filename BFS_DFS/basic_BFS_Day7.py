@@ -27,7 +27,6 @@ for _ in range(M):
 node_list.sort()
 
 visited_list = [False for _ in range(N + 1)]
-dfs(V)
 
 
 
