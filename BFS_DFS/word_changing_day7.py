@@ -31,8 +31,7 @@ def checking_word(now, new_node):
 
 def solution(begin, target, words):
     queue = deque([(begin,0)])
-    visited_list = set()
-    visited_list.add(begin)
+    words.remove(begin)
 
     if target not in words:
         return 
@@ -40,13 +39,13 @@ def solution(begin, target, words):
     while queue :
         now, level = queue.popleft()
         if now == target: return level
-        new_words = [word for word in words if word not in visited_list]
-        for new_word in new_words:
+        #new_words = [word for word in words if word not in visited_list]
+        
+        for new_word in words:
             if checking_word(now, new_word):
                 queue.append([(new_word, level + 1)])
-                visited_list.add(new_word)
+                words.remove(new_word)
     return 0 
 
         
-
 
