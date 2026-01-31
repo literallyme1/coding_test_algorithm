@@ -1,34 +1,40 @@
 #[State]
 
 #[Input]n(row), m(column), board
+
+def solution(n, m, board):
 #[Logic]
 # while 문 
-# #set 이름을 뭐라고 하지?
-# same_set = set()
-# for r in range(n):
-#     for c in range(m):
-#         if graph[r][c] ==  graph[r+1][c] ==  graph[r][c+1] ==  graph[r+1][c+1]:
-#             same_set.update([(r, c), (r + 1, c), (r, c + 1), (r + 1, c + 1)]) #set 도 묶는게 맞겠지? 
-
-#중력 구현 
-    #for c in range(m):
-        #col_list = [graph[r][c] for r in range(r) if r != 0]
-        # new_col_list = 남은 것 0 
-        #다시 넣기 
 
 
+    total_count = 0 
+    while True:
+        remove_set = set()
+        #1. 훑으면서 같은 블록 찾고 set 에 넣기 
+        for r in range(n):
+            for c in range(m):
+                if r == n-1 or c == m - 1:
+                    continue
+                if graph[r][c] ==  graph[r+1][c] ==  graph[r][c+1] ==  graph[r+1][c+1] and graph[r][c] != "":
+                    remove_set.update([(r, c), (r + 1, c), (r, c + 1), (r + 1, c + 1)])
+        
+        ## While Condition 조건
+        if len(remove_set) == 0:
+            break
+        #2. count 세고, Pop 을 ""로 표현하기 
+        total_count += len(remove_set)
+        for r, c in remove_set:
+            graph[r][c] = ""
 
-#1. 찾고 
-#2. 0 되고 
-#4. 또 찾고 
-#[Output] 블록이 지워질 지 출력 
-
-
-# def solution(m, n, board):
-
+        #3.중력 구현 
+        for c in range(m):
+            col_list = [graph[r][c] for r in range(n) if graph[r][c] != ""]
+            new_col_list = [""] * (n - len(col_list)) + col_list
+            #다시 넣기 
+            for i in range(n):
+                graph[i][c]= new_col_list[i]
+    return total_count
 
 graph = ["CCBDE", "AAADE", "AAABF", "CCBBF"]
-graph = [ [s for s in i] for i in graph] #1. 문자열 split 을 하려함. 2. 더 간단하게 하는 방법 존재할 듯 
-print(graph)
-
-#print(solution(4,	5,	["CCBDE", "AAADE", "AAABF", "CCBBF"]))
+graph = [ list(i) for i in graph] #1. 문자열 split 을 하려함. 2. 더 간단하게 하는 방법 존재할 듯 
+print(solution(4,	5,	graph))
