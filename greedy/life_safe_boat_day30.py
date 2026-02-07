@@ -8,4 +8,3 @@
     #반복 
 
 #[Output] total 
-
