@@ -13,7 +13,7 @@ def solution(people, limit):
         total += 1
     return total
 
-print(solution([70, 50, 80, 50],	100))
+print(solution([70, 50, 80, 50], 100))
 
 #[Logic] 최대 2명, 무게 제한 0 sort
 #구명보트를 최대한 적게 사용하여 모든 사람을 구출 
