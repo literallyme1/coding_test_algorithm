@@ -7,17 +7,37 @@
 #3. b_dice sort, 횟수 누적합 구하기 
 #4. a_dice 각각 bisect_left() if idx > 0, 누적횟수 * 자기 횟수 
 #5. total 비교 (반복), 해당 주사위 인덱스 저장 
+
 #[Output] return total, +1 인덱스 
 
+from collections import defaultdict
+from itertools import combinations ##itertools 까먹음. 
 
-# 
+def solution(dice):
+    #1. for 주사위 나누기 (인덱스, combination)
+    n = len(dice)
+    index_list = [i for i in range(n)]
+    for a_index in combinations(index_list, n // 2):
+        a_list = [dice[i] for i in a_index]
+        b_list = [dice[i] for i in index_list if i not in a_index]
 
-# A가 먼저 n / 2개의 주사위를 가져가면 B가 남은 n / 2개의 주사위를 가져갑니다. 
-# 각각 가져간 주사위를 모두 굴린 뒤, 나온 수들을 모두 합해 점수를 계산합니다. 
-# 점수가 더 큰 쪽이 승리하며, 점수가 같다면 무승부입니다.
+        #2. 각각 가능한 주사위 합 (defaultDict, product)
+        #product x -> tuple 로 나옴. 다시 전처리 
+        a_sum = {0 : 0}     
+         #dice 개수가 작아서 삼중 포문이 가능할 거라 판단 
+        for d in a_list:
+            for key in a_sum.keys():
+                for i in d: 
+                    a_sum[key + i] += 1
+        b_sum = {0 : 0} #dice 개수가 작아서 삼중 포문이 가능할 거라 판단 
+        for d in b_list:
+            for key in a_sum.keys():
+                for i in d: 
+                    a_sum[key + i] += 1
+        
+        #3. b_dice sort, 횟수 누적합 구하기
+        
 
-# A는 자신이 승리할 확률이 가장 높아지도록 주사위를 가져가려 합니다.
+    
 
-# 주사위에 쓰인 수의 구성을 담은 2차원 정수 배열 dice가 매개변수로 주어집니다. 이때, 자신이 승리할 확률이 가장 높아지기 위해 
-# A가 골라야 하는 주사위 번호를 오름차순으로 1차원 정수 배열에 담아 return 하도록 solution 함수를 완성해 주세요. 
-# 승리할 확률이 가장 높은 주사위 조합이 유일한 경우만 주어집니다.
+
