@@ -23,7 +23,7 @@ def solution(m, musicinfos):
         start, end, title, lyl = info.split(',')
         gap_min = gap(start, end)
 
-        #2. # -> 치환 C# -> H, D# -> I,  F# -> J, G# -> K, A# ->L
+        #2. # -> 치환
         lyl = normalize(lyl)
         m = normalize(m)
 
