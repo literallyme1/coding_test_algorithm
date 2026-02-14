@@ -1,10 +1,41 @@
 
 #[State] BFS 
 #[Input] begin	target	words
+
+from collections import deque
+def str_check(now, word):
+    diff = 0
+    for (n, w) in zip(now, word):
+        if n != w:
+            diff += 1
+    return diff == 1
+
+def solution(begin, target, words):
+
+    #1. target 단어가 있는 지 확인 
+    if target not in words:
+        return 0 
+    
+    #2. visited_list = set(depth, begin)
+    queue = deque([(0, begin)])
+    visited= set(begin)
+
+    while queue:
+        depth, now = queue.pop()
+        next_depth = depth + 1
+        for word in words:
+            if word not in visited and str_check(now, word):
+                if word == target:
+                    return next_depth
+                queue.append((next_depth, word))
+                visited.add(word)
+                #시간 복잡도 
+
+    return 0
+
+print(solution("hit",	"cog",	["hot", "dot", "dog", "lot", "log", "cog"]))
 #[Logic]
-#1. target 단어가 있는 지 확인 
-#2. visited_list = sort() depth 와 같이 tuple 로 넣기 
-#3. begin 넣기 
+
 #while visited_list:
 # zip 다른게 하나 true  (함수)
 # true 일 시 넣기 
