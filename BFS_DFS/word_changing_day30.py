@@ -29,7 +29,6 @@ def solution(begin, target, words):
                     return next_depth
                 queue.append((next_depth, word))
                 visited.add(word)
-                #시간 복잡도 
 
     return 0
 
