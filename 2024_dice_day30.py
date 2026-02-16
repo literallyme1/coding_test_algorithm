@@ -12,7 +12,7 @@
 
 from collections import defaultdict
 from itertools import combinations ##itertools 까먹음. 
-
+from bisect import bisect_left
 def solution(dice):
     #1. for 주사위 나누기 (인덱스, combination)
     n = len(dice)
@@ -31,12 +31,19 @@ def solution(dice):
                     a_sum[key + i] += 1
         b_sum = {0 : 0} #dice 개수가 작아서 삼중 포문이 가능할 거라 판단 
         for d in b_list:
-            for key in a_sum.keys():
+            for key in b_sum.keys():
                 for i in d: 
-                    a_sum[key + i] += 1
+                    b_sum[key + i] += 1
         
         #3. b_dice sort, 횟수 누적합 구하기
-        
+        b_keys = list(b_sum.keys()).sort()
+        a_keys = list(a_sum.keys())
+        total = 0
+        for key in a_keys:
+            idx = bisect_left(key, b_keys)
+            if idx > 0 :
+                
+
 
     
 
