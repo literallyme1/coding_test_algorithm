@@ -16,6 +16,7 @@ from bisect import bisect_left
 def solution(dice):
     #1. for 주사위 나누기 (인덱스, combination)
     n = len(dice)
+    max_total = 0
     index_list = [i for i in range(n)]
     for a_index in combinations(index_list, n // 2):
         a_list = [dice[i] for i in a_index]
@@ -35,14 +36,28 @@ def solution(dice):
                 for i in d: 
                     b_sum[key + i] += 1
         
-        #3. b_dice sort, 횟수 누적합 구하기
+        #3. 누적합
         b_keys = list(b_sum.keys()).sort()
         a_keys = list(a_sum.keys())
+
+        sum = 0
+        sum_list = []
+        for key in b_keys:
+            sum += b_sum[key]
+            sum_list.append(sum)
+
+        #4. b_dice sort, 횟수 누적합 구하기
+
         total = 0
         for key in a_keys:
             idx = bisect_left(key, b_keys)
             if idx > 0 :
-                
+                total += sum_list[idx-1] * a_sum[idx-1]
+        if total > max_total:
+            max_total = total
+    return total
+
+
 
 
     
