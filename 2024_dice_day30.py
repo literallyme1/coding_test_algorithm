@@ -24,17 +24,20 @@ def solution(dice):
 
         #2. 각각 가능한 주사위 합 (defaultDict, product)
         #product x -> tuple 로 나옴. 다시 전처리 
-        a_sum = {0 : 0}     
+        a_sum = {0 : 1}     
          #dice 개수가 작아서 삼중 포문이 가능할 거라 판단 
         for d in a_list:
+            
             for key in a_sum.keys():
                 for i in d: 
                     a_sum[key + i] += 1
         b_sum = {0 : 0} #dice 개수가 작아서 삼중 포문이 가능할 거라 판단 
-        for d in b_list:
-            for key in b_sum.keys():
-                for i in d: 
-                    b_sum[key + i] += 1
+        b_keys = sorted(b_sum.keys())
+        sum_list = []
+        running = 0
+        for key in b_keys:
+            running += b_sum[key]
+            sum_list.append(running)
         
         #3. 누적합
         b_keys = list(b_sum.keys()).sort()
