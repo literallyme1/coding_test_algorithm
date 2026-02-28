@@ -10,7 +10,6 @@
 
 #[Output] return total, +1 인덱스 
 
-from collections import defaultdict
 from itertools import combinations ##itertools 까먹음. 
 from bisect import bisect_left
 def solution(dice):
