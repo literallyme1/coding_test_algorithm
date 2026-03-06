@@ -17,12 +17,19 @@
 
 def solution(n, lost, reserve):
     # 여분 0 -> 도둑 맞은 학생 
-    for i in lost:
-        if i in reserve:
-            lost.remove(i)
-            reserve.remove(i)
+    # for i in lost:
+    #     if i in reserve:
+    #         lost.remove(i)
+    #         reserve.remove(i)
+    s_lost = set(lost)
+    s_reverse = set(reserve)
+
+    intersect = s_lost & s_reverse
+    s_lost = s_lost - intersect
+    s_reverse = s_reverse - intersect
 
     # 적은 순서대로 빌릴 수 있는 걸 빌림. 
+    lost = list(s_lost)
     lost.sort()
     borrow = 0 
     for idx in lost:
