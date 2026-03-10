@@ -17,25 +17,18 @@ def solution(n, graph):
                 #넣기
                 queue.append((row, column))
                 graph[row][column] = 0
+                r_v = [1,-1,0,0]
+                c_v = [0,0,1,-1]
                 while queue:
                     n_r, n_c = queue.pop()
                     #상하좌우를 볼꺼임. 범위 안넘으면
-                    if n_r - 1 > 0 and n_r - 1 == 1:
-                        queue.append((n_r - 1, n_c))
-                        graph[n_r - 1][n_c] = 0
-                        house_num += 1
-                    if n_r + 1 < n and n_r + 1 == 1:
-                        queue.append((n_r + 1, n_c))
-                        graph[n_r + 1][n_c] = 0
-                        house_num += 1
-                    if n_c - 1 > 0 and n_c - 1 == 1:
-                        queue.append((n_r , n_c - 1))
-                        graph[n_r][n_c - 1] = 0
-                        house_num += 1
-                    if n_c + 1 < n and n_c + 1 == 1:
-                        queue.append((n_r, n_c + 1))
-                        graph[n_r][n_c + 1] = 0
-                        house_num += 1
+                    for i in range(4):
+                        c_r = n_r + r_v[i]
+                        c_c = n_c + c_v[i]
+                        if 0 <= c_r < n and  0 <= c_c < n and graph[c_r][c_c]:
+                            queue.append((c_r, c_c))
+                            graph[c_r][c_c] = 0
+                            house_num += 1
                 house_list.append(house_num)
     print(total_house)
     house_list.sort()
