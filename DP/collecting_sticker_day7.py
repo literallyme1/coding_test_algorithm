@@ -10,8 +10,6 @@
 # 첫 값 o = 0, x = 1 
 
 #[Output] 숫자 합의 최대값 
-
-
 def solution(sticker):
     n = len(sticker)
     total = []
