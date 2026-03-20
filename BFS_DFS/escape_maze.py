@@ -19,48 +19,51 @@
 
 from collections import deque
 
-def range_cal(x1, y1, x2, y2):
-    return abs(x2 - x1) + abs(y2 - y1)
-def solution(maps):
-    maps = [[c for c in s] for s in maps] 
+#[문제점]
+#1. 직선거리로 품. (벽을 간과)
+
+# 틀린 것 3 : 좌표는 r, c 로 통일 넣을 때도 이순서로 
+def bfs(start, target, maps):
+    queue = deque()
     col = len(maps[0])
     row = len(maps)
-    queue = deque()
-    visited = [[False for _ in range(col)] for _ in range(row)]
+    visited = [[False] * col for _ in range(row)]
+    dc = [0,0,1,-1]
+    dr = [1,-1,0,0]
+
+    (sr, sc) = next((r, c) for r in range(row) for c in range(col) if maps[r][c] == start) # 코드 해석 필요 
+
+    queue.append((sr, sc, 0)) #1. 틀린 것 : dist 는 0 부터 시작 
+    visited[sr][sc] = True
+    while queue:
+        nr, nc, dist = queue.popleft() 
+
+        if maps[nr][nc] == target:
+            return dist
+        
+        for i in range(4):
+            c = nc + dc[i]
+            r = nr + dr[i]
+            if 0 <= c < col and 0 <= r < row:
+                if maps[r][c] != "X" and not visited[r][c]: #틀린 것 2. L, S 등 모두 o 에 해당
+                    queue.append((r, c, dist + 1)) 
+                    visited[r][c] = True
+    return -1
+                
+
+def solution(maps):
+    maps = [[c for c in s] for s in maps] 
     # 1. start -> lever 
-    x_w = [0,0,1,-1]
-    y_w = [1,-1,0,0]
-    # 최단 값 찾고 거리계산 생각 (따로 예상)
-    min_range = 0 
-    le_point = ()
-    for r in range(row):
-        for c in range(col):
-            if maps[r][c] == "S":
-                queue.append((r, c))
-                visited[r][c] = True
-                while queue:
-                    y, x = queue.popleft() # r, c 하니까 변수 어떻게 쓸 지 x, y, x 햇갈림. 
-                    for i in range(4):
-                        t_x = x + x_w[i]
-                        t_y = y + y_w[i]
-                        if 0 <= t_x < col and 0 <= t_y < row:
-                            if maps[t_y][t_x] == "O" and not visited[t_y][t_x]:
-                                queue.append((t_y, t_x))
-                                visited[t_y][t_x] = True
-                            elif maps[t_y][t_x] == "L" and not visited[t_y][t_x]:
-                                min_range += range_cal(c, r, t_y, t_x)
-                                le_point = (t_y, t_x)
-                                break 
-    visited = [[False for _ in range(col)] for _ in range(row)]
-    queue = deque()
-    queue.append(le_point)
-    #똑같이 찾음. 
+    dist1 = bfs("S", "L", maps)
+    if dist1 == -1:
+        return -1
+    # 2. lever -> end 
+    dist2 = bfs("L", "E", maps)
+    if dist2 == -1:
+        return -1
+    return dist1 + dist2 # 틀린것4 : 못 갈 때도 파악 
 
 
-
-
-
-    return 
 
 
 print(solution(["SOOOL","XXXXO","OOOOO","OXXXX","OOOOE"]))
