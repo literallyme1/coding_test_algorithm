@@ -23,6 +23,7 @@ from collections import deque
 #1. 직선거리로 품. (벽을 간과)
 
 # 틀린 것 3 : 좌표는 r, c 로 통일 넣을 때도 이순서로 
+# 왜 이건 bfs 인지도 파악 
 def bfs(start, target, maps):
     queue = deque()
     col = len(maps[0])
