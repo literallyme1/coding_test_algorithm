@@ -36,7 +36,7 @@ def solution(s):
                 string += prev
 
         
-        # print(string)
+        print(string)
         if len(string) > max:
             max = len(string)
         
