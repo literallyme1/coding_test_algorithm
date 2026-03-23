@@ -1,6 +1,6 @@
 import datetime
 
-print("--- [Enter]를 누르면 현재 시간이 출력됩니다 (종료: Ctrl+C) ---")
+print("--- [Enter]를 누르면 현재 시간이 출력됩니다 ---")
 
 try:
     while True:
