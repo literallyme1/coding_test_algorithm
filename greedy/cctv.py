@@ -5,23 +5,14 @@
 # set 안에 set 못넣음. 
 
 def solution(routes):
-    rlst = [] # set 초기값 설정 방법
-    for route in routes:
-        nr = [i for i in range(route[0], route[1]+1)]
-        tlst = rlst # 깊은 복사가 되려나? 
-        for r in tlst:
-            if frozenset(nr) in frozenset(r):
-                if(len(nr) > len(r)):
-                    mr = set(nr) & set(r)
-                else:
-                    mr = set(r) & set(nr)
-                rlst.remove(r)
-                rlst.append(mr)
-                nr = -1
-                break
-        
-        if len(nr) != -1:
-            rlst.append(set(nr))
+    routes.sort(key = lambda x : x[1])
+    last = - 30001
+    camera = 0 
+    for s, e in routes:
+        if s > last:
+            camera += 1
+            last = e
+
 
     return len(rlst)
 
