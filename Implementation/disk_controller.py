@@ -12,22 +12,24 @@
 import heapq
 
 def solution(jobs):
+    jobs = sorted([(start, time, i) for i, (start, time) in enumerate(jobs)])
+
     heap = []
-    #1. 번호 삽입 -> heap
-    for i, (start, time) in enumerate(jobs):
-        heapq.heappush(heap, (time, start,  i+1))
-    #2. 디스크 가동 
-    wlst= []
-    total = 0
-    for _ in range(len(jobs)):
-        time, start, i  = heapq.heappop(heap) # heap 이 우선순위 맞춰 가져옴. 
-        end = total + time if total > start else start + time # 프로세스가 들어오는 데까지 휴동시간 생각 x 바로 total + time 으로 함. 
-        wait = end - start
-        wlst.append(wait)
-        total = end 
-    return sum(wlst) // len(wlst)
-
-
+    now, i, total_wait = 0, 0, 0
+    while i <len(jobs):
+        #1. 현재 시점까지 들어온 요청 heap 에 넣음 ( 중복 막기 위해 start 이상)
+        for j in jobs:
+            if start < j[0] <= now:
+                heapq.heappush(heap, (j[1], j[0], j[2]))
+        
+        if heap:
+            duration, req_time, idx = heapq.heappop(heap)
+            start = now 
+            now += duration
+            total_wait += (now - req_time) #총시간에서 온시간 빼기 
+        else:
+            now += 1
+    return total_wait // len(jobs)
 
 
 jobs = [[0, 3], [1, 9], [3, 5]]
