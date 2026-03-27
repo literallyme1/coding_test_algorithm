@@ -1,3 +1,5 @@
+###day 2에 개수도 구하기 
+
 #[State]
 #[Input] m(c), n, puddles(이차원 배열)
 #[Logic] mod = 1,000,000,007
@@ -107,3 +109,4 @@ def solution(m, n, puddles):
 print(solution(4, 3, [[2, 2]])) # 결과: 4
 
 
+###mod 는 매단계에서 해주는 게 좋음. (개수)
