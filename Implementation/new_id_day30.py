@@ -6,9 +6,10 @@ def solution(new_id):
 
     # 2단계 new_id에서 알파벳 소문자, 숫자, 빼기(-), 밑줄(_), 마침표(.)를 제외한 모든 문자를 제거합니다.
     new_id = re.sub('[^a-z-0-9_.]','', new_id)
-
+    new_id = re.sub('^[a-z-_.]', '', new_id.lower())
     # 3단계 new_id에서 마침표(.)가 2번 이상 연속된 부분을 하나의 마침표(.)로 치환합니다.
     new_id = new_id.replace("..","." )
+    new_id = re.sub(r'\.{2,}', '.', new_id )
 
     # 4단계 new_id에서 마침표(.)가 처음이나 끝에 위치한다면 제거합니다.
     new_id = re.sub('..','.', new_id )
