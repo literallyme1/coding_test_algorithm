@@ -8,3 +8,6 @@
 
 
 # vpn ,  ipsec 기업 중심, ssl 웹 중심 
+
+
+# 웹의 구성 요소 HYPERTEXT, HTML (DHTML 동적),  HTTP(80), HTTPS(443 SSL 넣음.) 
