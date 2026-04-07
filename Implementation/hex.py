@@ -27,3 +27,7 @@
 # -	Python : & 비트 연산, and 논리 연산 
 # -	C 언어 : & 비트 연산, && 논리 연산
 # -	JAVA : & if 문 내 논리, if 문 밖 비트연산, && 논리 연산 
+
+
+#보안
+# SYN FLOODING (TCP, 대기상태), Session Hijacking(비동기, 시퀀스 넘버 탈취), Sniffing (패킷 도청), Smurf(ICMP DDos)
