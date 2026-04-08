@@ -31,3 +31,7 @@
 
 #보안
 # SYN FLOODING (TCP, 대기상태), Session Hijacking(비동기, 시퀀스 넘버 탈취), Sniffing (패킷 도청), Smurf(ICMP DDos)
+
+# 마스커레이드 : 공인 IP 에 숨겨서 보냄. 
+# 구문의미시간 -> 프로토콜 3요소
+# DB 개념적 모델 : 구조 , 연산, 제약조건 
