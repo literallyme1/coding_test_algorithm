@@ -39,3 +39,9 @@
 # 데이터 링크 계층 ( L2TP (PPTP + L2F)) : 라우터 없이 터널링로 빠르게 전달 가능 
 
 # ipv4 8 * 4, cidr 은 어디까지 네트워크인지 알려줌, 패킷 교환 방식 가상회선, 데이터그램이 있음.
+
+
+#GRANT SELECT, UPDATE, DELETE, INSERT  ON 테이블 TO  USER; REVOKE 권한 FROM USERS [CASCADE/ RESTRICT] ;
+# ALTER TABLE ABLE MODIFY RENAME COLUMN A TO 새로; 
+#ALTER TABLE ADD COL VARCHAR(50) NOT NULL; ALTER TABLE DROP COLUMN 주소(기존);
+#DROP TABLE A CASCADE/RESTRICT;
