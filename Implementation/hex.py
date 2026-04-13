@@ -46,3 +46,6 @@
 #ALTER TABLE ADD COL VARCHAR(50) NOT NULL; ALTER TABLE DROP COLUMN 주소(기존);
 #DROP TABLE A CASCADE/RESTRICT;
 #도부이결다조 BCNF vs 3NF : BCNF (후보키를 결정자가 정하는 경우) , 이행적 종속 
+
+#LOC : 원시라인 -> 예측치 -> 비용산정
+# 노력 : LOC / 생산성 생산성 : 노력 * LOC , 개발 기간 노력 / 투입인원, 개발 비용 노력 * 1인당 비용 
