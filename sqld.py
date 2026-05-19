@@ -1,2 +1,3 @@
 # cube, rollup, grouping sets, window functions, common table expressions (CTEs), and more.
 # These features allow for more complex and efficient data analysis and reporting.
+# enitity , relationship, attribute, primary key, foreign key, normalization, denormalization, indexing, query optimization, transactions, ACID properties (Atomicity, Consistency, Isolation, Durability), stored procedures, triggers, views, and more.
