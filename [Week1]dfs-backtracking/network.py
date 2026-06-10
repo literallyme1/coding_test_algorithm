@@ -1,5 +1,22 @@
-#[state] bfs, 
+#[state] dfs
 #[input] n, computers
-#[logic] 이행 종속 가능, 자신 1:1 
-# computers 자체 활용 -> 1 인 위치의 노드는 연결 -1 로 변경 계속 변경 while 더 없을 때 
+#[logic] 무리 
 #[output] 네트워크의 개수
+
+
+
+n = 3
+computers = [[1, 1, 0], [1, 1, 0], [0, 0, 1]]
+
+visited = [False] * n 
+def dfs(current):
+    
+    visited[current] = True
+
+    for i in range(n):
+        if not visited[i] and computers[current][i]:
+            dfs(i) 
+
+for i in range(n):
+    if not visited[i]:
+        dfs(i)
