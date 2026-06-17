@@ -17,10 +17,8 @@ def dfs(cur, i):
             count += 1
         return
     
-    if i+1 < n:
-        next = i + 1
-        dfs(cur + numbers[next], next)
-        dfs(cur - numbers[next], next)
+    dfs(i + 1, cur + numbers[i])
+    dfs(i - 1, cur + numbers[i])
 
 dfs(0, 0)
 
