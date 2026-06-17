@@ -5,6 +5,36 @@
 # 2. return dfs(+arr[]), dfs(-arr[]) 
 #[output] 경우의 수 
 
+numbers = [1, 1, 1, 1, 1]
+target = 3
+
+n = len(numbers)
+count = 0
+def dfs(cur, i):
+    global count, n, numbers
+    if i == n:
+        if cur == target:
+            count += 1
+        return
+    
+    if i+1 < n:
+        next = i + 1
+        dfs(cur + numbers[next], next)
+        dfs(cur - numbers[next], next)
+
+dfs(0, 0)
+
+        
+
+
+
+
+
+
+
+
+
+
 
 
 def dfs(result, i):
@@ -17,8 +47,7 @@ def dfs(result, i):
 
     
     
-numbers = [1, 1, 1, 1, 1]
-target = 3
+
 
 dfs(0, 0)
 
