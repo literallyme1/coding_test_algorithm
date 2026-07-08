@@ -18,7 +18,7 @@ def solution(word):
 
             # 2. 현재 단어가 목표 단어라면 정답 저장
             if current == word:
-                answer = current
+                answer = order
                 # 찾았다는 의미로 True 반환
                 return True
 
@@ -30,7 +30,7 @@ def solution(word):
         for vowel in vowels:
             # 5. 자식 재귀에서 목표를 찾았다면 즉시 종료
             if dfs(current + vowel):
-                break
+                return True
         # 6. 목표를 찾지 못했다면 False 반환
         return False
 
