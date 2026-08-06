@@ -1,0 +1,20 @@
+- 튜플
+[Input] 튜플 조합
+[Process] 백만 큰편. 
+[Output] 첫 조합 튜플 반환
+- 신규 아이디 추천 
+
+- 파일명 정리
+[Input] files
+[Process] 1. head to uppercase 정렬, 2. num 정렬 ( 앞 0 제외하고 비교) 3. tail 은 다르면 순서 그대로.  
+[Output] 정렬 후 반환 
+
+- 문자열 압축 
+[Input] s
+[Process] 1. 브루트포스로 
+[Output] 문자열을 잘라 압축하여 표현한 문자열 중 가장 짧은 것의 길이를 return
+
+- n진수 게임 
+[Input] n(진수)	t(미리구할 숫자)	m(인원)	p(순서)
+[Process] 백만 큰편. 
+[Output] 첫 조합 튜플 반환
