@@ -1,0 +1,75 @@
+#핵심 문제 신호
+순서 순회, 조회, 비교 
+
+#코드
+
+int[] arr = new int[count];
+arr.length
+Arrays.sort(arr);
+int[] copy = arr.clone();
+
+for(int i = 0; i < arr.length; i++){
+
+}
+for(int node : arr){
+
+}
+
+StringToknizer st = new StringToknizer();
+int[] nArr = new int[count];
+for(int i =0; i <count; i ++) {
+    arr[i] = Integer.parseInt(st.nextToken());
+}
+
+
+
+long sum = 0
+for(int i = 0; arr.length; i++){
+    sum += arr[i];
+}
+
+
+
+
+int max = int[0];
+int index = 0;
+
+for(int i = 1; i < arr; i++){
+    if(arr[i] > max){
+        max = arr[i]
+        index = i
+    }
+}
+
+System.out.println(max);
+
+
+//모의고사
+
+pattern[i % arr.length]
+
+int max = Arrays.stream(score).max().getAsInt();
+
+//h -index 
+
+Arrays.sort(citations);
+int n = citations.length;
+
+for(int i = 0; i < n; i ++){
+    int count = n - i;
+    if(citations[i] >= count){
+        return count; 
+    }
+}
+
+//roll-cake
+
+if(!leftExists[value]){
+    leftExists[value] = true;
+    leftkinds ++;
+}
+
+rightCount[value]--;
+if(rightCount[value] == 0){
+    rightKinds--;
+}
