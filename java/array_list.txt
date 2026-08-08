@@ -31,3 +31,25 @@ for(int i = 1; i < N; i ++){
     } 
 }
 list.add[count];
+
+## 같은 숫자 싫어
+
+for(int i = 0; i < arr.length; i++) {
+    if(!list.isEmpty() || arr[i] != list.get(list.length -1)) {
+        list.add(arr[i]);
+    }
+}
+
+## 뉴스 클러스터링
+
+if(Character.isLetter(a) && Chararcter.isLetter(b)){
+    list.add("" + a + b);
+}
+
+List<String> copy = new ArrayList<>();
+for (String value : list1){
+    if(list2.contains(value)){
+        intersection ++;
+        list2.remove(value);
+    }
+}
