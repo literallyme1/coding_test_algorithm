@@ -1,0 +1,47 @@
+2차원 배열
+좌표를 이동, 조회, 변경 하는 것 (보드, 지도, 좌표 등)
+
+int[][] map = new map[N][M];
+map.length;
+map[0].length;
+
+for(int r= 0; r < N; r++){
+    StringToknizer = new StringToknizer(br.readline());
+    for(int c = 0; c <N; c++){
+        map[r][c] = Integer.parseInt(st.nextToken());
+    }
+}
+
+int[N][M] copy = new int[N][M];
+
+for(int r= 0; r < N; r++){
+    copy[r] = arr[r].clone();
+}
+
+
+행렬의 덧셈 
+
+N = map1.length;
+M - map1[0].length;
+
+for(int r= 0; r < N; r++){
+    for(int c = 0; c <M; c++){
+        map1[r][c] += map2[r][c];
+    }
+}
+
+//전체 초기화
+
+
+
+//좌표
+dr = {0, 0, 1, -1};
+dc = {1, -1, 0, 0};
+
+for(int i = ; i < 4; i++){
+    nr = r + dr[i];
+    nc = c + dc[i];
+
+
+    if(nr < 0 || nr >= N || nc < 0 || nc ?= M) { continue;}
+}
