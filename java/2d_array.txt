@@ -43,5 +43,26 @@ for(int i = ; i < 4; i++){
     nc = c + dc[i];
 
 
-    if(nr < 0 || nr >= N || nc < 0 || nc ?= M) { continue;}
+    if(nr < 0 || nr >= N || nc < 0 || nc >= M) { continue;}
 }
+
+
+### 삼각달팽이
+
+if(nr < 0 || nr < n || nc < 0 || nc < n ) continue;
+index =0;
+for(int r =0; r < n; r++){
+    for(int c =0; c <n; c++){
+        answer[index++] = map[r][c];
+    }
+}
+
+
+# 행렬 테두리 회전
+int prev = map[x1][y1];
+int min = prev;
+
+int temp = map[r][c];
+map[r][c] = prev;
+prev = temp;
+int min = Math.min(min, prev);
