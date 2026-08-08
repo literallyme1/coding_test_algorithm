@@ -1,0 +1,32 @@
+1차원 배열
+순회하며 인덱스 이용해 비교, 조회
+
+int[] arr = new int[N + 1];
+arr.length
+fill(arr, -1);
+int[] copy = arr.clone();
+for(int value : arr){
+
+}
+long sum = 0;
+for(int = 0; i < count; i++){
+    sum += 0;
+}
+
+StringToknizer st = new StringToknizer(br.readline);
+for(int = 0; i < count; i++){
+   arr[i] = Integer.parseInt(st.nextToken())
+}
+
+
+Arrays.sort(arr);
+
+최대값 문제
+max = arr[0];
+maxIndex = 0; 
+for (int i = 1; i < count; i++){
+    if(arr[i] > max){
+        max = arr[i];
+        maxIndex = i;
+    }
+}
