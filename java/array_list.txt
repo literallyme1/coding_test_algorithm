@@ -1,0 +1,33 @@
+ArrayList
+중간에 넣거나, 조회 등 
+
+List<Integer> list = new ArrayList<>();
+list.size();
+list.add(1);
+list.add(2);
+list.remove(Integer.valueOf(1));
+list.remove(1);
+list.add(2, 1);
+Collections.sort(list);
+list.get(i);
+list.get(list.size()-1);
+list.contains(1);
+# 기능 개발 
+
+process, speed
+
+int deployDay = ((100 - process[0]) + speed[0] -1) / speed[0];
+List<Integer> list = new ArrayList<>();
+count = 1;
+for(int i = 1; i < N; i ++){
+    int day = ((100 - process[i]) + speed[i] -1) / speed[i];
+
+    if(day <= deployDay){
+        count ++;
+    }else{
+        list.add(count);
+        count = 1; 
+        deployDay = day;
+    } 
+}
+list.add[count];
