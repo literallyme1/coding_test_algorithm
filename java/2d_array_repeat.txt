@@ -1,0 +1,40 @@
+2차원 배열
+좌표 이동, 순회 
+
+
+int[][] map = new[N][M];
+map[0].length;
+
+int[][] copy = new int[N][];
+for(int i = 0; i < map.length; i++) {
+    fill(map[i], -1);
+    copy[i] = map[i].clone();
+}
+
+StringToknizer st;
+
+
+for(int r = 0; r < map.length; r++) {
+     new StringToknizer(br.readline());
+     for(int c =0; c < map.length; c++) {
+        map[r][c] = Integer.parseInt(st.nextToken());
+     }
+}
+
+dr = {0, 0, -1, 1};
+dc = {1, -1, 0, 0};
+
+
+for(int = 0; i < 4; i ++){
+    int nr = r + dr[i];
+    int nc = r + dc[i];
+    if(nr < 0 || nr >= N || nc < 0 || nr >= M) continue;
+}
+
+
+
+
+
+
+
+
