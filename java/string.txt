@@ -1,0 +1,59 @@
+문자열처리
+문자를 조회 변경
+
+
+String str = "Hello World";
+str.length();
+str.contains("abc");
+list<Sting> list = str.split(" ")
+
+Character.isLetter(str);
+Character.isDigit(str);
+
+str.toLowerCase();
+str.toUpperCase();
+str.substring(2, 4); // 2부터 3까지
+str.replace("Hello", "Hi");
+
+for(i = 0; i < str.length; i++){
+    str.charAt(i);
+}
+
+str2 = "Hello";
+str.equals(str2);
+str.equalsIgnoreCase(str2);
+
+StringBuilder sb = new StringBuilder();
+
+
+for(i = 0; i < str.length; i++){
+    if(i > 0) sb.append(" ");
+    sb.append(str.charAt(i));
+}
+
+str.toString();
+
+str.toCharArray();
+str.indexOf("abc");
+
+int num = Integer.parseInt(str);
+String s = String.valueOf(num);
+
+
+#신규 아이디 추천
+
+StringBuilder sb = new StringBuilder();
+
+new_id = new_id.toLowerCase();
+
+for (int i = 0; i < new_id.length(); i++) {
+    char ch = new_id.charAt(i);
+
+    if (Character.isLetterOrDigit(ch) 
+    || ch == '-'
+    || ch == '_'
+    || ch == '.'
+){
+    sb.append(ch);
+}
+}
