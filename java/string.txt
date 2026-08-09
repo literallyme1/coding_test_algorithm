@@ -57,3 +57,39 @@ for (int i = 0; i < new_id.length(); i++) {
     sb.append(ch);
 }
 }
+
+
+###문자열 처리 
+
+for(int unit = 1; unit <= s.length() /2; unit++)
+
+int end = Math.min(i + unit, s.length());
+String current = s.substring(unit, end);
+
+### 문자열 압축 
+if(prev.equals(current)){
+    count ++;
+}else{
+    if(count>0) sb.append(count);
+    sb.append(prev);
+    prev = current;
+    count = 1;
+}
+
+###파일명 정렬 
+while(start < s.length() && !Character.isDigit(s.charAt(start))){ start++; }
+int end = start;
+
+while( end < s.length() && )
+
+
+int headCompare = headA.compareToIgnoreCase(headB);
+if(headCompare != 0){ return headCompare;}
+return headA.compareToIgnoreCase(numa, numb);
+
+
+###n 진수 게임
+
+String converted = Integer.toString(number, n).toUpperCase();
+int index = (p - 1) + i * m;
+answer.append(all.charAt(index))
