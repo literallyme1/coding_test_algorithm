@@ -1,0 +1,20 @@
+대용량 카운팅, key 별 저장 필요할 시 사용
+
+Map<String, Integer> map = new HashMap<>();
+
+map.put("hi", 1);
+map.("hi", map.getOrDefault("hi", 0) + 1);
+map.size();
+map.containsKey("hi");
+map.remove("hi");
+map.get("hi");
+for(String key : map.keySet()){
+
+}
+
+for(Map.Entry<String, Integer> entry : map.entrySet()){
+    String key = entry.getKey();
+}
+
+#완주하지 못한 선수
+
