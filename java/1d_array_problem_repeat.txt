@@ -1,0 +1,26 @@
+#h-index
+
+Arrays.sort(citations);
+int n = citations.length
+
+for(int i = 0; i < n ; i++){
+    int count = n - i;
+
+    if(citations[i] >= count){
+        return countl
+    }
+    return 0;
+}
+
+
+for(int i = 0; i < topping.length; i++){
+    if(!set.contains(topping[i])){
+        type += 1;
+    }
+    count[topping[i] ]+=1; 
+}
+
+for(int i = 0; i < topping.length; i++){
+    count[topping[i] ]-=1; 
+    if(count[topping[i] ] == 0) lefttype --;
+}
