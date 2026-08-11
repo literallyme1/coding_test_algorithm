@@ -1,0 +1,17 @@
+중복 없이 존재 여부 파악 
+
+
+Set<String> set = new HashSet<>();
+set.add("hi");
+set.size();
+set.remove("value");
+set.contians("value");
+
+for(String val : set){
+
+}
+
+int n = set.size();
+
+int half = n / 2;
+Math.min(half, n);
