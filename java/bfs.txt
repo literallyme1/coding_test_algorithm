@@ -41,3 +41,39 @@ while(deque.isEmpty()){
     }
     return -1;
 }
+
+# 미로 탈출 
+
+int toLever = bfs(maps, sr, sc, 'L');
+
+int toExit = bfs(maps, lr, lc, 'R');
+return toLever + toExit;
+
+
+# 리코쳇 로봇
+
+int r = cur[0];
+int c = cur[1];
+int dist = cur[2];
+
+while(true){
+    int nr = r + dr[i];
+    int nc = c + dc[i];
+
+    if() break;
+    if(arr[nr].charAt(nc) == 'D') {
+        break;
+    }
+    r = nr;
+    c = nc;
+}
+
+#벽부수기
+
+boolean[][][] visited = new boolean[N][M][2];
+
+if(map[][] == 0)
+else if(map[][] == 1 && wallCount = 0)
+
+'1' - 0 =  1
+'c' - 'a' = 2 
