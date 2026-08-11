@@ -1,0 +1,29 @@
+앞 뒤에 넣거나 빼야한다. (stack, queue, deque)
+
+
+Deque<Integer> deque = new ArrayDeque<>();
+
+deque.offerFirst();
+deque.offerLast();
+deque.peekFirst();
+deque.peekLast();
+deque.pollFirst();
+deque.pollLast();
+
+deque.size();
+deque.contains();
+deque.isEmpty();
+
+
+#괄호 문제
+
+for(String value : str.toCharArray()){
+    if(value == '('){
+        deque.offerLast(value);
+    }else{
+        if(deque.isEmpty()){
+            return false;
+        }
+        deque.pollLast();
+    }
+}

@@ -15,3 +15,8 @@ int n = set.size();
 
 int half = n / 2;
 Math.min(half, n);
+
+
+#영어 끝말잇기
+
+bool correct = prev.charAt(prev.length()-1) != curr.charAt[0];
