@@ -1,0 +1,43 @@
+이동 비용이 같을 때 최단 거리, 횟수 
+
+빠른시간, 인접한 곳 퍼저감. 
+
+
+dr = {-1, 1, 0, 0};
+dc = {0, 0, 1, -1};
+
+
+int[][] visited = new int[N][M];
+Deque<Integer> deque = new ArrayDeque<>();
+
+
+vistied[start_r][start_c] = true;
+deque.add(int[]{start_r, start_c, 0});
+
+while(deque.isEmpty()){
+    int[] arr = deque.pollFirst();
+    int r = arr[0];
+    int c = arr[1];
+    int dist = arr[2];
+
+    if(r == targetR && c == targetC){
+        return dist;
+    }
+
+    for(int = 0; i < 4; i++){
+        nr = r + dr[i];
+        nc = c + dc[i];
+
+        if( 0 > nr || nr >= N || 0 > nc || nc >= M){
+            continues;
+        }
+
+        if(map[nr][nc] == 0) continues;
+        if(vistied[nr][nc]) continues;
+
+        visited[nr][nc] = true;
+        queue.offerLast(int[]{nr, nc, dist+1});
+
+    }
+    return -1;
+}

@@ -27,3 +27,24 @@ for(String value : str.toCharArray()){
         deque.pollLast();
     }
 }
+
+#프로세스
+queue.offerLast(int[]{priority[i], i});
+for (int[] process : queue) {
+    if(process[0] > current[0]){
+        higherExists = true;
+        break;
+    }
+}
+
+# 다리 건너는 트럭
+
+currentWeight -= bridge.pollFist();
+
+if(currentWeight + nextTruck <= weight){
+    bridge.offerLast(nextTruck);
+    currentWeight += nextTruck;
+    index ++;
+}else{
+    bridge.offerLast(0);
+}
