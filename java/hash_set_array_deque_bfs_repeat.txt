@@ -1,0 +1,82 @@
+//hashset
+중복 제외 
+
+
+Map<Integer> map = new hashMap<>();
+map.add(1);
+map.remove(1);
+map.contains();
+map.length();
+
+for(int num : numbers){
+    map.add(num);
+}
+
+int n = map.size();
+int half = n / 2;
+
+return Math.max(n, half);
+
+//ArrayDeque
+Deque<Integer> deque = new ArrayDeque<>();
+
+deque.pollFirst();
+deque.pollLast();
+deque.peekFirst();
+deque.peekLast();
+deque.offerFirst(1);
+deque.offerLast(1);
+dequqe.isEmpty();
+deque.size();
+
+
+for(String val : values){
+    if(val == "("){
+        deque.offerLast();
+    }else{
+        if (stack.isEmpty()) {
+            return false;
+        }
+        String out = deque.pollLast();
+        if( out != "("){
+            return false;
+        }
+
+    }
+}
+
+//bfs 
+선택 비용이 동일할 때 최소 거리, 시간 
+
+
+int[] dr = {1, -1, 0, 0};
+int[] dc = {0, 0, 1, -1};
+
+boolean[][] visited = new int[N][M];
+Deque<Int[]> deque = new ArrayDeque<>();
+
+boolean visited[0][0] = true;
+deque.offerLast(int[]{0, 0, 0});
+
+while(deque.isEmpty()){
+    int[] val = deque.pollLast();
+    int nr = val[0];
+    int nc = val[1];
+    int dist = val[2];
+
+    for(int = 0; i < 4; i++){
+        int cr = r + dr[i]; 
+        int cc = r + dc[i];
+
+        if(0 > cr || N <= cr || 0 > cn || M <= cn) continues;
+
+        if(map[cr][cc] == 0) continues;
+        
+        if(!visited[cr][cc]){
+            visited[cr][cc] = true;
+            deque.add(int[]{cr, cc, dist +1});
+        }
+    }
+
+}
+return -1;
