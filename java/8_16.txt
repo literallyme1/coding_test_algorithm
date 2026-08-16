@@ -1,0 +1,167 @@
+# 문자열 처리 
+
+
+#파일명 정렬 
+
+while(start < file.length() && ! Character.isDigit(file[start])){
+    start++;
+}
+
+Arrays.sort(file, (a, b) -> {
+    int headA = a[0];
+    int headB = b[0];
+    int endA = a[1];
+    int endB = b[1];
+    if(headA != headB) return headA.compareToIgnoreCase(headB);
+    return Integer.compare(endA, endB);
+
+});
+
+#문자열 압축
+for(int unit = 1; unit =< str.length() / 2; unit ++){
+    for(int i = unit; i <str.length(); i += unit){
+        int end = Math.min(i + unit, s.length());
+        String current = str.substring(unit, end);
+
+        if(prev.equals(current)){
+            count++;
+        }else{
+            if(count > 1) sb.append(count);
+            sb.append(prev);
+
+            prev = current;
+            count = 1;     
+        }
+    }
+}
+
+#n 진수 게임 
+
+while(all.length() < t * m){
+    String converted = Integer.toString(num, n).toUpperCase();
+}
+
+int index = (p-1) + i * m;
+answer.append(all.charAt(index));
+
+
+# 의상
+
+map.put(type, map.getOrDefault(type, 0) + 1);
+for(int count : map.values()){
+    answer * = (count + 1);
+}
+return answer -1;
+
+#전화번호 목록 
+Map<String, boolean> map = new HashMap<>();
+
+for (String phone : phoneBook){
+    map.put(phone, true);
+}
+
+for (String phone : phoneBook) {
+    String prefix = phone.substring(0, i);
+
+    if(map.containsKey(prefix)){
+        return false; 
+    }
+}
+
+#베스트앨범
+songs.computeIfAbsent(genre, k -> new ArrayList<()).add(new int[]{i, plays[i]});
+
+#hashset
+#영어 끝말잇기
+boolean = answer = prev.charAt(prev.chartAt(prev.length()-1)) != curr.charAt(0);
+
+int person = i % n + 1;
+int turn = i / n + 1;
+
+
+#방문 길이 
+visited.add(x + "," + y + "- >" + nx "," + ny);
+
+#프로세스 
+queue.offLast(int[]{priorities[i], i});
+
+for(int[] process : queue) {
+    if(process[0] ; current[0]) {
+        higherExists = true;
+        break;
+    }
+}
+
+#다리를 지나는 트럭
+currentWeight -= bridge.pollFirst();
+
+if(currentWeight + nextTruck <= weight) {
+    bridge.offerLast(nextTruck);
+    currentWeight += nextTruck;
+}else{
+    bridge.offerLast(0);
+}
+
+#괄호 회전하기 
+
+Deque<Integer> nDeque = new ArrayDeque<>();
+
+for( char c : Deque){
+    if( c  : 여는 괄호) {
+        nDeque.offerLast();
+    }
+    else{
+        nDeque.isEmpty() return false
+
+    }
+}
+
+return deque.isEmpty();
+
+
+for(int i =0; i <4; i ++){
+
+    int nr = r;
+    int nc = c;
+
+    while(true){
+        int nextR = nr + dr[i];
+        int nextC = nc + dc[i];
+
+        if ( nextR  < 0 || nextR >= N || nextC < 0 || nextC >= M) {
+            break;
+        }
+
+        if (board[nextR].charAt(nextC) == "D"){
+            break;
+        }
+
+        nr = nextR;
+        nc = next';
+
+        if (visited[nr][nc]){
+            continue;
+        }
+        visited[nr][nc] = true;
+
+        queue.offerLast( new int[]{nr, nc, count+1});
+    }
+}
+
+#벽부수고 가기 
+
+
+for(int i = 0; i < 4; i ++){
+    int nr = r + dr[]
+    int nc = c + dc[]
+
+    if(){ continue;}
+
+    if (map[][] = 0){
+        visited = true
+        offerLast
+    }else if(map[][] == 1 && wallCount == 0){
+        visited = true
+        offerLast( 1 )
+    }
+}
