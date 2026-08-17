@@ -45,3 +45,56 @@ count += dfs(r, c);
 return count;
 
 
+#전력망 나누기 
+
+public void dfs(int cur, int cutA, int cutB){
+    visited[cur] = true;
+    count ++;
+
+    for(int next : graph[cur]){
+        if((cur == cutA && next == cutB) || (cur == cutB && next == cutA)) { continue; }
+        if(!visited[next]) { dfs(next, cutA, cutB)}
+    }
+}
+
+
+int other = n - count;
+answer = Math.abs(answer, (count - other));
+
+
+#무인도 여행
+
+public Solution(){
+
+    public int[] Solution(String[] map){
+        int n, m;
+
+        List<Integer> answer = new ArrayList<>();
+        n = map.length;
+        m = map[0].length();
+        visited = new boolean[n][m];
+
+        for(){
+            for(){
+                if(map[r][c] != 'X' && visited){
+                    int sum = dfs(r, c);
+                    answer.add(sum);
+                }
+            }
+        }
+
+        if(answer.isEmpty()){
+            return new int[]{-1};
+        }
+        Collections.sort(answer);
+        for(){
+            add
+        }
+    }
+
+    public int dfs(int r, int c){
+        visited = true;
+
+        int food = maps[r].charAt(c) - '0';
+    }
+}
