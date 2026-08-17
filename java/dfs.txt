@@ -1,0 +1,47 @@
+#dfs
+
+덩어리, 연결된, 끝까지 
+
+
+boolean visited = new boolean[N][M];
+int[] dr = {1, -1, 0, 0};
+int[] dc = {0, 0, -1, 1};
+
+public dfs(r, c){
+
+    visited[r][c] = true;
+
+    for(int i = 0; i < 4; i ++){
+        int nr = r + dr[i];
+        int nc = c + dc[i];
+
+        if(0 > nr || nr >= N|| 0 > nc || nc >= M){
+            continue;
+        }
+        if(map[nr][nc] == 0){
+            continue;
+        }
+
+        if(visited[nr][nc]) { continue; }
+        dfs(nr, nc);
+        
+    }
+}
+
+유형 1 : 섬 찾기 
+for(int r = 0; r < N; r++){
+    for (int c =0; c < M; c++){
+        if(!visited[r][c]){
+            dfs(r, c);
+        }
+    }
+}
+
+유형 2 : 개수 
+
+int count = 1
+
+count += dfs(r, c);
+return count;
+
+
