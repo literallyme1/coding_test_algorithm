@@ -25,3 +25,40 @@ while(pq.peek() < k){
     count ++;
     offer
 }
+
+#디스크 컨트롤러
+
+
+PriorityQueue<int[][]> pq = new PriorityQueue<((a, b) -> { return Intger.compare(a[1], b[1])});
+
+while (count <= job.length){
+    while(index < arr.length && time >= arr[index][0]){
+            index ++;
+            pq.offer();
+
+    }
+    if(!pq.isEmpty()){
+        pq.poll
+
+        time +
+        total
+        conut
+    }else{
+        time = jobs[][];
+    }
+
+}
+
+#야근지수 
+
+
+pq = new priorityQueue<>(Collections.reverseOrder());
+
+if( total < n){
+    return 0;
+}
+
+while(n > 0){
+    pollofrer
+    n--;
+}
