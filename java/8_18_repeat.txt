@@ -1,0 +1,117 @@
+#2차원 배열 
+
+
+int[][] arr = new int[n][m];
+for(n){
+    for(m)
+}
+
+dr dc
+
+for(int i = 0; i < 4; i++){
+
+}
+
+n = arr.length
+m = arr[0].length
+
+for(int i ){
+    Arrays.fll(arr, -1;
+    arr[i].clone;
+}
+
+
+for(){
+    StringToknizer st = new StringToknizer(br.readline);
+    for(){
+        arr[i]df = Integ~
+
+    }
+
+}
+
+
+dr = {1, 0, -1};
+dc = {0, 1, -1};
+
+for( n){
+    for (n){
+        arr[]
+
+        r + dr
+
+        if(){
+            i = (n/3) +1
+            nr = r + i
+            nc = c + i
+        }
+         r = nr
+         c = nc 
+
+
+    }
+}
+
+//행렬 테두리 회전 
+
+
+r1, c1, r2, c2  = 기존 -1
+min = -1;
+//위 왼 오
+for() 4번 각 math.min()
+int prev = 처음
+int tmep = prev
+
+
+//거리두기 
+
+
+for(){
+    for(){
+        if (p){
+
+            // pp
+            앞뒤 있으면 false
+
+            //p0p
+            if(+2){
+                conintue 
+                n(n+2)/2
+            }
+
+            ++ 1일때 
+        }
+    }
+}
+
+//hashmap
+
+
+Map<Integer, String> map = new hashmap<>();
+
+map.put(1, "hi");
+for(Integer val : map.keySet()){
+    for(String : map.valueSet()){
+        Entry<In, st> entry : map.entrySet(){
+            if(map.containsKey()){
+                if(map.containsValue()){
+                    map.remove(key);
+                }
+            }
+        }
+    }
+}
+
+map.put(key, map.getOrDefalut(1, 0));
+
+map.computeIfAbsent(key, k -> new ArrayList());
+map.size()
+
+
+map ++,  -1 
+
+//
+
+array. + 1 
+
+마지막 -1 

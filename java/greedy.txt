@@ -1,0 +1,51 @@
+greedy
+
+최소 등 여러 경우가 아닌 정설로 최적해가 나오는 경우
+
+Arrays.sort(arr);
+
+for(int i =0; i < arr.length; i++){
+    상태 변경 
+    지속 
+}
+
+유형 신호
+
+최대한 간격을 줄여야 함. -> 빨리 끝내는 게 최고 
+Arrays.sort(arr, (a, b) -> {
+    return Integer.compare(a[1], b[1]); //종
+})
+
+int end = -1;
+int count = 0;
+
+for(){
+    if(interver[0] > end){
+        cout++;
+        end = interver[1];
+    } 
+}
+
+버짓으로 가장 많은 걸 사려면 ? cost 가 가장 적어야 함. 
+
+
+Arrays.sort(arr);
+
+for(cost : arr){
+    if( sum + cost <= budget){
+        count ++
+        sum + cost
+    }
+}
+
+
+구명 보트 
+
+right = arr.length -1
+while(left<=right){
+    if(arr[left] + right <= wegith){
+        left ++;
+    }
+    right --;
+    count ++;
+}
