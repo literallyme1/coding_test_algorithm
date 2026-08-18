@@ -49,3 +49,30 @@ while(left<=right){
     right --;
     count ++;
 }
+
+체육복 
+
+
+for(int = 1; i < n; i++){
+    if(2개 아니면) continue; 
+
+    if( i > 0 && i -1 이 없으면) i --, i-1 ++;
+
+    elseif( i < n && 없으면)
+}
+
+단속 카메라
+
+
+Arrays.sort((a, b) -> return Integer.compare([]1[]1))
+
+camera = Integer.MIN_VALUE;
+
+for( routes){
+
+    if(camera < start){
+        camera = end;
+        answer++; 
+    }
+    ]
+}
