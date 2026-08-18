@@ -1,0 +1,46 @@
+//backtrack
+완전 탐색, N 이 작을 때 
+
+
+visited
+
+
+private void backtrack(){
+
+    answer = Math.max(answer, )
+    if(depth == h){
+        return 
+    }
+
+    for(){
+        if(visited[]) continue;
+
+        visited[] = true;
+        selected[] = i;
+        backtrack(depth)
+        visited[] = false;
+     }
+}
+
+조합
+
+visited = true
+backtrack(i +1, depth+1)
+
+중복 조합
+backtrack(i , depth + 1)
+
+
+//피로도 
+
+private void backtrack(int fagiue, ){
+        Math.max
+    for(int i = 0; i < dungeons.length; i++){
+        if(fagiue < dungeons[i][0]){
+            continue;
+        }
+    }
+    if(visited[i]) { continue; }
+    visited = true;
+    backtrack( - fagiue, ++ count);
+}
