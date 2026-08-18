@@ -1,0 +1,26 @@
+//backtracking
+N 이 작은 완전탐색 경우 
+
+
+//dfs 연결 뭉탱이 
+boolean[][] visited = new boolean[N][M];
+
+public void dfs(int r,  int c){
+    visited[r][c] = true;
+    count = 1;
+    for(int i = 0; i < 4; i++){
+        int nr = r + dr[i];
+        int nc = r + dc[i];
+        if( 0 ~) { continue; }
+        if(visited) { continue; }
+        count += dfs(nr, nc);
+
+    }
+    return count; 
+}
+
+# count 개수 , 영역, 
+
+for(int i = 0; i < arr.length; i ++){
+if()
+}
