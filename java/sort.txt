@@ -1,0 +1,17 @@
+
+int[]
+Arrays.sort(1dArr);
+for(int i = arr.length; i >= 0; i--){
+    int value = 1dArr;
+}
+
+Arrays.sort(arr, (a, b) -> {
+    if ( a[0] != b[0]) return Integer.compare(a[0],b[0]);
+    return Integer.compare(a[1],b[1]);
+});
+
+
+ArrayList
+Collections.sort(arr);
+list.sort(arr, Collections.reverseOrder());
+
