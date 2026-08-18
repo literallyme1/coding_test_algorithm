@@ -1,0 +1,27 @@
+
+
+priorityQueue
+최대, 최소 를 계속 
+
+
+PriorityQueue<Integer> pq = new PriorityQueue<>();
+pq.offer();
+pq.peek();
+pq.poll();
+
+pq.size();
+pq.isEmpty();
+PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> { Integer.compare(b[1], a[1])});
+
+int count = 0;
+
+
+while(pq.peek() < k){
+    int first = pq.poll();
+    int seconde = pq.poll();
+
+    int new = first + seconde *2;
+    count ++;
+    offer
+}

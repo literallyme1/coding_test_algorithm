@@ -15,3 +15,6 @@ ArrayList
 Collections.sort(arr);
 list.sort(arr, Collections.reverseOrder());
 
+
+
+Arrays.sort(strArr, (a + b).compareTo(b + a));
