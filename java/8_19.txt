@@ -1,0 +1,92 @@
+//파일명 정렬
+
+
+
+string.charAt(i);
+Chararacter.isDigit && start < length 
+
+head  = substtring.0, start;
+
+return String[]{a, b} 
+
+
+ends = head; 
+
+return compareIgnoreCase(a, b);
+
+
+
+//문자열 
+
+
+String str = "Hello World";
+
+str.replace(Hello, Hi);
+str.substtring(0, 4);
+str.charAt(1);
+str.indexOf("World");
+str.compareIgnoreCase();
+str.length();
+str.contains("")
+str.equals()
+str.toLowerCase();
+str.toUpperCase();
+
+
+StringBuilder sb = new StringBuilder();
+sb.append("s");
+sb.remove)
+
+sb.toString();
+
+int num = str - '0';
+String s = String.valueOf(num);
+
+str.toLowerCase();
+
+
+str.toCharArray(){
+    if(Chararcter.isLetterDigit() || ch =='' ){
+        sb.append;
+    }
+}
+
+//문자열 압축 
+
+for(unit 크기){
+    //처음 str.substring(0, 크기);
+    for(unit = i ;  언제까지 ? unit += i){
+        if(이전이랑 같으면 ){
+            count ++
+        }else{
+            if(count > 0){
+                sb.append(count)
+            }
+            sb.append(word);
+            word = str.sub
+        }
+    }
+}
+
+//n진수 게임 
+
+Integer.parseInt(str, n);
+Integer.toString(10, n).toUpperCase();
+
+
+//베스트 앨범 
+
+map.put(genroe, getOrDefault() + n);
+
+aMap.computeIfAbsent(genroe, k -> new ArrayList<>()).add(new int[]{i, plays[i]});
+
+
+
+List<String> genreList 
+
+
+genreList.sort((a, b) -> {
+    (a, b) -> Integer.compare(aMap[a], aMap[b])'
+})
+
+for(int i = 0; i <Math.min(2, size))
