@@ -1,0 +1,22 @@
+//priorityQueue
+최소, 최대 
+
+
+PriorityQueue<Integer> pq = new PriorityQueue<>();
+PriorityQueue<Integer> pq = new PrioritSyQueue<>(Collections.reverseOrder());
+
+pq.offer(1);
+
+pq.isEmpty();
+pq.peek();
+pq.poll();
+
+
+PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+while(pq.peek() =< k){
+    int first =
+    int second = 
+    offer 
+}
+

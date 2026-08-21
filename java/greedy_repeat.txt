@@ -1,0 +1,41 @@
+greedy 
+현재 내 선택이 언제나 정설일 때 
+
+
+Arrays.sort(arr);
+
+for(){
+    if()
+    //상태 변경 
+}
+
+// 구명 보트
+
+left = 0;
+right = length -1;
+
+while(left <= right){
+    if(weight - right >= left){
+        left++
+    }
+    right --;
+    count ++; 
+}
+
+//겹치는구간 
+sort 
+if(first_ends < second_first){
+    camera = ends;
+    count ++ 1; 
+}
+
+budguet -> 많이 
+
+sort 
+
+if(current + a > budget){
+    break
+}
+
+Arrays.
+list.sort(Collections.reverseORder)
