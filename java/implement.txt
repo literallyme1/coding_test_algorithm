@@ -1,0 +1,45 @@
+#구현 
+- 직접 순서대로. 
+- 조건에 따라 이동 
+- 현재 위치 갱신 
+
+
+
+for(route){
+    int[] route.split(" ");
+    char dir = 
+    int dist = parts[1];
+
+    if(dir = "r" )
+
+
+    int nr = r; 
+    int nc = c;
+
+    for(i < dist){
+        nr + dr
+        nc + dc 
+
+        if( || arr[] == 'X'){
+            false
+            break
+        }
+    }
+
+    if(possible){
+        r = nr
+        c = nc 
+    }
+}
+
+
+for(){
+    for(){
+        original[n][r] = arr[n - c - 1][r]; //90 도 회전 
+    }
+
+}
+//뭐든 지 쓰고 시작학. 
+
+
+상태 -> 조건 
