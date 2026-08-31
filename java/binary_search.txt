@@ -1,0 +1,50 @@
+이분탐색 
+정렬, 어느 범위 단계에서 됨. 
+최대값, 최소값. 큰 범위 
+
+
+
+long answer = 0;
+long left = 0;
+long right = 0;
+
+while(left<=right){
+    int mid = left + right /2
+
+    if(mid){
+        answer = mid;
+        //최대값
+        left  = mid + 1
+        //최소값
+        right = mid - 1 
+    }
+
+
+    if(arr[mid] == target) {
+        return mid
+    }
+    >{
+        rig
+    }
+}
+
+//입국심사 
+
+
+left = 1; 
+right = maxTime * n;
+
+while (left <= right){
+    long mid = left + right / 2
+    long count =0 
+
+    for(int time : times){
+
+        count = mid / time;
+
+        if(count >= n){
+            break;
+        }
+    }
+    if( count )
+}

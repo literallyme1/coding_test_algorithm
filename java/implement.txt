@@ -43,3 +43,66 @@ for(){
 
 
 상태 -> 조건 
+
+
+//키패드 누르기 
+
+for(int num : numbers){
+    if([1,4 ,7].contains(num)){
+        arr.l
+        좌표
+    }
+    elif(){
+        arr.2
+        좌표
+    }
+    else{
+        좌표 찾기 Math.abs(a1.x - b1.x) + abs()
+
+    }
+}
+
+
+distance
+
+x = (num - 1) / 3;
+y = (num - 1) % 3;
+
+
+
+//크레인 
+
+for(c){
+    for(r){
+        if(0){
+            continue
+        }else{
+            arr.add();
+            arr[r][c] = 0
+        }
+
+    }
+}
+
+
+for(){
+    if(이전 ){
+        pop 
+        count + 1
+    }
+}
+
+for( ){
+    charAt;
+    if(isDigit){
+        arr. Integer.parseInt()
+        if(start != end){
+            문자 바꾸기
+            start = i + 1;
+            end = i + 1;
+        }
+
+    }else{
+        end = i;
+    }
+}
