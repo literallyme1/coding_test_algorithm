@@ -1,0 +1,23 @@
+완전탐색
+조합, 최대값, 최소값
+
+
+조건 
+
+int max = Intger.MIN_VALUE;
+for(int i = 0; i < arr.length ; i ++){
+    for(int j = i + 1; j < arr.length; j++){
+        for(int k = j + 1; k < arr.length; k ++){
+            if(arr[] [] [] >= sum){
+                int max = Math.max( sum, mzx)
+            }
+        }
+    }
+}
+
+조합일 시 가능, 둘이 다르면 그냥.
+수백 이하 n3 ,수천 n2 그 외에는 
+두 수 투포인터 
+DP 등. 
+
+고르는 개수가 가변 적이면, 백트래킹 등 

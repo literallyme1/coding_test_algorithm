@@ -1,0 +1,105 @@
+#1차원 배열 
+
+int[] arr = new int[n];
+
+n[] = 1; 
+
+arr.contians()
+arr.length
+
+for(int a : arr){
+
+}
+
+StringToken st = new StringToken(br.readline());
+for(int i = 0; i < arr.length; i++){
+    arr[i] = Integer.parseInt(st.nextToken())l
+}   
+
+Arrays.sort(arr);
+Arrays.fill(arr, -1);
+int[] copy = arr.clone();
+for(int i = o){
+    int count = n - i;
+
+}
+
+rollcake
+for(int i  : topping){
+    if(right[i] == 0){
+        rightCount += 1
+    }
+    right[i] += 1
+}
+
+
+for(int i ){
+    right[]-1
+    if(right == 0){
+        right - 1
+    }
+    left = true 
+
+}
+
+처음
+#기능개발 
+for(){
+    int progress = 100 - progress[1] +speed[i] / speed[i]
+    if(progress > = np){
+        count += 1
+    }else{
+        arr.count 
+        count = 0 
+        pro = np 
+    }
+}
+
+# array list 
+
+List<Integer> list = new ArrayList<>();
+
+list.size();
+list.add();
+list.remove();
+list.remove(Integer.valueOf(1)); // 인덱스 아니고 
+list.contains()
+list.get();
+list.set(index, x);
+Collections.sort(arr);
+
+#뉴스 클러스터링 
+list1
+list2
+
+for(){
+    if(list1.contains() && list2.contains()){
+        list.remove
+        list.remove
+        count + 1; 
+    }
+
+    union = list1.size + 2.size + count 
+
+}
+
+모의고사 
+
+
+pattern[i % length]
+
+
+int max = Arrays.stream().max().getAsInt();
+
+# 문제 읽기 → 조건 1줄 요약 → 풀이 시작
+arr 
+
+# 겹치는 것. 줄이기. 
+
+for( 1 부터 arr){
+    if first != arr{
+        arr.first;
+        first = arr[]
+    }
+}
+
