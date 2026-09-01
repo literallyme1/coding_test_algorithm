@@ -85,3 +85,33 @@ while(left < right){
 
     System.out.println(count);
 }
+
+#두 큐 
+
+Deque<> d1 = new Deque<>();
+Deque<> d2 = new Deque<>();
+
+
+for(){
+    sum1 += 
+    deque.offerLast()
+}
+
+
+for(){
+    sum2 += 
+    deque.offerLast()
+}
+
+//average
+
+
+while(count < limit){
+    if(sum 1 <= average){
+        deque2.pollFirst()
+        deque1.offerLast()
+        sum 관련 
+    }
+    같으면 
+    반환 
+}

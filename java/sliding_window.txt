@@ -1,0 +1,48 @@
+슬라이딩 윈도우
+구간 합/ 일정 길이 문자 빈도 등 
+
+
+//1. 처음 sum 
+for(){
+    sum += arr[i]
+}
+
+//2. 
+for(right = k ){
+    sum -=  arr[right - k]
+    sum += arr[right]
+
+    if(sum == target){count ++; }
+    or
+    Math.max()
+}
+
+//연속 부분 수열 합의 개수
+
+Set<Integer> set = new HashSet<>();
+Arrays.sort()
+
+//1. 첫 윈도우 
+for(){
+    sum
+    set.add
+}
+
+for(1){
+    sum -=  arr[i - 1]
+    sum += arr[i + n - 1 % n]
+    set.add()
+}
+
+
+//빈도 
+
+
+//1. 빈도 
+
+map.put(string.charAt, getOrDefault( + 1));
+
+//윈도우 
+for(k){
+    
+}
