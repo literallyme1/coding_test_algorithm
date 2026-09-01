@@ -16,3 +16,76 @@ for(i){
 
 
 //구현 
+순서대로 
+
+for(route){
+    Stirng[] = route.split(" ");
+
+    
+    char dir = parts[0].charAt(0);
+    int dist = Integer.parseInt(parts[1]);
+
+    nr = r
+    nc = c
+
+
+    for( i <dist`){
+
+    }
+    if (possible) {
+
+    }
+
+
+}
+//이분탐색 
+n 이 크고, 최소값, 최대값 
+
+left = 1
+right = n 
+
+
+while(left <= right){
+    mid = left + right / 2
+    if(mid >= ){
+        left -1
+    }
+    else{
+        right -1 
+    }
+}
+
+
+while(left <= right){
+    mid = left + right / 2
+    if(possible){
+        answer = mid;
+        right = mid -1; 
+    }else{
+        반대 
+    }
+}
+
+//입국심사
+
+left = 1
+right = max * n;
+
+while(left <= right){
+    int mid = left + right /2
+
+    for(){
+        count += mid / time ; 
+        if(){
+            break
+        }
+    }
+    if (count >= mid){
+        answer = mid;
+        right = mid - 1;
+    }else{
+        left = mid + 1; 
+    }
+
+
+}

@@ -1,0 +1,47 @@
+//two pointer
+- 특정합, 부분 수열, 두 수의 합 
+
+
+1. 기본 
+
+left = 0
+right = length - 1;
+
+while(left < right){
+
+    if(sum == traget){
+
+    }elif( sum > target){
+        left ++;
+    }else{
+        right --;
+    }
+}
+
+2. 동방향 
+
+for(r = 0 ; r++){
+    sum += arr[r];
+
+    while(){
+        sum -= arr[left]
+        left ++; 
+    }
+}
+
+3. 연속된 부분 수열의 합
+
+for(){
+    count += arr[r];
+    if(count > n){
+        left += 1;
+        count -= left
+    }
+    if(count == sum){
+        if(l < bl){
+        bestleft
+        bestRight
+        r - l + 1 max 
+        }
+    }
+}
