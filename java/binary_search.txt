@@ -48,3 +48,5 @@ while (left <= right){
     }
     if( count )
 }
+
+//징검다리 건너기 
