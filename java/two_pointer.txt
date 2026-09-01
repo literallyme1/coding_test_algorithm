@@ -45,3 +45,43 @@ for(){
         }
     }
 }
+
+int size = new HashSet<>(Arrays.asList(gems)).size();
+//보석 쇼핑 
+
+for(right){
+    map.put(gems[right], map.getOrDefault(gems[right], 0) + 1)
+
+    while(map.size == size) {
+        // 갱신 
+        if(right - left < bestRight)
+        //지우기 
+        map.put( -1)
+        if(){
+            remove;
+        }
+
+                left ++;
+    }
+}
+
+//두수의 합 
+BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+
+arrays.sort
+left = 0
+right -1
+while(left < right){
+    sum
+    if( sum > x){
+        right --;
+    }elif(sum < x){
+        left ++
+    }
+    else{
+        count ++;                 left++;
+                right--;
+    }
+
+    System.out.println(count);
+}
