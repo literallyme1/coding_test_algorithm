@@ -44,5 +44,26 @@ map.put(string.charAt, getOrDefault( + 1));
 
 //윈도우 
 for(k){
-    
+
 }
+
+//할인 행사 
+
+hashmap
+
+need = map.put(, getOrDefault()+ 1)
+
+window
+for(){
+    window 채우기 
+}
+
+for(i = k;){
+    window -1 i - k
+    window + 1 k
+
+    if(0) { remove}
+
+    needs.equals(window)
+}
+
