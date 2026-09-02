@@ -1,0 +1,38 @@
+dp 
+
+최선이 아닌 경우의 수 
+
+
+0. 반복축 (선택)
+1. dp 현재 상태 확인 
+2. 알아야 하는 이전 상태 정의 ( 경우의수, 최대값 or 최소값, 선택 미선택)
+3. 
+
+
+//땅따먹기 
+
+1. 현재 상태 이전에 선택할 수 있는 경우 중 max + 자기 
+
+for(){
+    if(prev == c){
+        continue
+    }
+    MAX
+}
+dp[i] = max + arr[i]
+//1. 경우의 수 합  , mod 는 그때 그 때 
+2. 최소 최대 
+3. inf = Integer.MAX_VALUE
+격자 -> 왼, 위중 최대 or 최소 
+lis :
+for(i){
+    for(j < i){
+        if(arr[j] < arr[i]){
+            dp[i] = Math.max(dp[i], dp[j] + 1)
+        }
+    }
+    answer = Math.max(anser, dp[i])
+}
+for w = max w > fist ; w --{
+    dp = Math
+}
