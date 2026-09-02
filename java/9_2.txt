@@ -1,0 +1,153 @@
+#투포인터 
+
+Arrays.sort()
+right = length -1
+left = 0
+
+1. 양방향 
+
+while(left < right){
+
+    sum = left + right 
+    if(sum > target){
+        right --;
+    }elif(
+
+    )else{
+        bl = left
+        br = right
+        break;
+    }
+}
+
+2. for(right){
+    
+    while(조건){
+        sum - = arr[left]
+        left ++ 
+    }
+}
+
+
+for(){
+    sum += 
+    while(sum > k){
+        sum -= left
+        left ++; 
+    }
+    if(sum == k){
+        lenght = right - left + 1 
+        if(lenght){
+            bl = left
+            br = right
+            bestLe = 
+
+
+        }
+    }
+
+}
+
+
+Map<> map = new HashMap<>();
+
+
+슬라이딩 윈도우 
+
+특정 구간 합 
+
+
+//첫 윈도우 값 
+
+
+for(){
+    sum += 
+}
+
+
+for(i = k){
+    sum -= i - k
+    sum += i 
+
+    if(){
+
+    }
+}
+
+
+//원형 수열 
+
+
+Set<> set = new HashSet<>();
+
+for(){
+    sum    
+}
+
+
+for(i = 1){
+    sum -= i - 1;
+    sum += i + k % k; 
+    set.add(sum)
+}
+
+
+map.put(, getOrDefault());
+
+
+prefix 
+
+new int[n + 1];
+prefix[i + 1] = arr[i] + prefix[i]
+
+prefix[i + 1] - prfix[j]
+
+
+
+//행렬
+
+prefix[r + 1][c + 1] = prefix[r][c + 1] + prefix[r + 1][c] - prefix[r][c] + arr[r][c]
+
+//구간 합 여러 번 구하기 
+
+
+사용 
+x1, y1 ~ x2, y2
+
+prefix[x1][y1] ? ? 
+
+
+이전 = 현재 - k
+
+
+
+map.put(0L, 1);
+
+
+for(int value : arr){
+    sum += value;
+    count += map.getOrDefault(sum - k, 0);
+    map.put(sum, map.getOrDefault(sum , 0) + 1)
+}
+
+
+
+차분 배열 
+
+arr[i] += n
+arr[j+1] -= n
+
+for(){
+    sum + = arr[i]
+    real[i] += sum 
+}
+
+
+diff[][] += n 
+diff[][+1] -= n
+diff[r + 1][] -= n
+diff[r+1][c+1] += n 
+
+
+
+

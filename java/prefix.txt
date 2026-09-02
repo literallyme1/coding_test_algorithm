@@ -1,0 +1,61 @@
+prefix
+1. 구간합
+2. 차분 배열
+3. k 가 가능한 구간 개수 
+4. mos 
+
+
+
+//생성
+
+int[] prefix = new int[n + 1];
+Arrays.fill(prefix, 0);
+for(0){
+    prefix[i+1] = prefix[0] + arr[0]
+}
+
+prefix[+1] - prefix[] 
+
+
+
+prefix - k = 이전합
+
+이전 = prefix - k 
+
+
+arr[] + need
+arr[+1] - nedd
+
+mod = ((prefix % n) + n) %n 
+
+
+
+행렬 합 
+
+prefix[r+1][c+1] = [r][c+1] + [c][r+1] + arr[r][c] -prefix[r][c]
+사용 prefix[r][c] - 
+
+
+파괴되지 않는 건물 
+
+
+[r][c]  +
+[r][c +1] -
+[r+1][c] -
+[r+1][c+1]
+
+//r가로 누적
+
+rc += r c-1
+rc += r-1 c 
+
+//펄스
+
+value = (i%2)?  : ;
+sum += value
+
+            max = Math.max(max, sum);
+            min = Math.min(min, sum);
+        }
+
+        return max - min;
