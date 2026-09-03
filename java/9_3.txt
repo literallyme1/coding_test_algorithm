@@ -1,0 +1,191 @@
+//dp 
+
+최대값, 선택 & 미선택 등 경우의 수로 판단, 값이 큰 경우 등
+
+1. 상태 정의 (내가 현재 구해야 하는 값)
+2. 그걸 위해 사용할 이전 값. 
+
+
+// 땅따먹기 
+
+
+dp
+for(){
+    dp[0][]
+}
+
+for(){
+    max = -1; 
+    for(4){
+        for(4)
+            if(현재){
+                continue;
+            }
+            max =Math.max(max, arr[][4]);
+        }
+        dp[i][] = max + arr[me]
+
+        }
+//lis
+
+for(){
+    for(j < i){
+        dp[i] = max(dp[i], dp[j] + 1)
+    }
+    answer = Math.max(dp[i],anwer)
+}    
+
+//0/1 배낭 
+
+dp[0] = 1;
+for(){
+    dp[i] += dp[i - count];
+}
+for( -1){
+    dp
+}
+
+
+//뉴스 클러스터링 
+
+
+for(){
+    if(arr.contains()){
+        remove
+        count + 1
+    }
+}
+
+
+
+
+for(  < length -2){
+
+
+    str.toLowerCase();
+    if(isLetter){
+
+    }
+    arr.("" + chartAt(i) + chartAt(i + 1));
+}
+
+
+//모의고사 
+
+
+if(arr1 % 5){
+    arr[count] += 1
+}
+
+int max = Arrays.stream(arr).max().getAsInt();
+if() list.add(1);
+
+
+//카펫 
+
+yellow 를 2로 나눔. 
+
+안나눴을 때 
+n = 1;
+
+    while(yellow % n == 0){
+        n = n *2 
+    }
+    if(yellow + n * 2 + 2 * (yellow + 2) == brown){
+        brown / n + 2
+        break; 
+    }
+
+//키패드 누르기 
+
+if num == 0?  11 : num;
+
+if([1,4, 7]) {
+    arr.add
+}elif(3, 6, 9){
+    arr.add
+}else{
+
+    tr = /
+    tc = %
+
+    Math.abs( -) + Math.abs(- )
+    num - l > num - r {
+        l
+    }elif(){
+        r
+    }else{
+        손잡이 
+    }
+}
+
+
+//크레인 인형뽑기 
+Deque 
+
+for(moves){
+    for(r){
+        if(0){ continue; }
+        else{
+            if(deque.isEmpty 아니면)
+            if(deque.peekLast()랑 같음){
+                count++; 
+                deque.pollLast();
+            }else{
+                deque.offerLast(이거);
+            }
+            board[r][c] = 0;
+            break;
+        }
+    }
+}
+
+//숫자 문자열 영단어
+
+alphabet = ["one", ]
+
+
+for(alphabet){
+    str.replace(alpha, i);
+}
+return Integer.parseInt()
+
+
+//징검다리 
+Arrays.sort();
+
+
+
+while(left < right){
+    mid = left +  right /2 ; 
+
+}\
+
+
+//지억맏리 건너기 
+
+right =
+whlile(left < right){
+
+    for{
+            mid
+    if(stone < mid){
+        zero ++; 
+
+    }else{
+        zero = 0; 
+    }
+    if(zoro > = k){
+        possible = false;
+        brak
+    }
+
+    }
+
+    if(possible){
+        answer = mid; 
+        left = mid
+    }
+
+
+}

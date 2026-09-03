@@ -36,3 +36,27 @@ for(i){
 for w = max w > fist ; w --{
     dp = Math
 }
+
+//도둑질 
+처음 포함 0 ,처음 포함 X 
+
+지금 턴 돈 = max(이전 0, 이전 X + 지금)
+
+dp[i] = max(dp[i-1], dp[i-2] + arr[i])
+
+
+max(prev, prev2 + money2)
+prev1 = current
+prev2 = prev1 
+
+//정수 삼각형 
+
+c or c + 1 
+
+dp[i] = max(dp[i-1][i], dp[i-1][i + 1])
+
+
+
+for(n-2 0){
+    
+}
