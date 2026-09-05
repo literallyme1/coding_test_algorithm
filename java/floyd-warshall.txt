@@ -1,0 +1,59 @@
+floyd warshall
+모든 노드 알아야 함. n 이 400 이하. 여러 출발점 
+
+int INF = Integer.MAX_VALUE;
+int dist = new int[N+1][M+1];
+
+for(){
+    Arrays.fill(dist[i], i++);
+    dist[i][i] = 0;
+}
+
+for(){
+
+    from, to, cost
+    dist[] = Math.min(dist[from][to], cost)
+}
+
+for(k = 1){
+    for(i =1){
+        if([i][k] == INF){
+            continue
+        }
+        for(j){
+            if([k][j] == INF){
+                continue
+            }
+            dist[i][j] = 
+        }
+    }
+}
+
+
+//순위 
+
+
+boolean[][] win = new boolean[n + 1][n + 1];
+
+
+for(){
+
+    win[a][b] = true;
+}
+
+for(k){
+    for(a){
+        for(b){
+            [a][b] || [a][k] && ![k][b]
+        }
+    }
+}
+
+ 
+int answer = 0;
+
+for(){
+    for(){
+        if()
+    }
+}

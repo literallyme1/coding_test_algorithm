@@ -1,0 +1,40 @@
+union-find
+
+계속 합치는 게 생김. 
+
+int[] parent = new int[N+1];
+for(1){
+    parent[i] = i;
+}
+
+
+
+int find(int a){
+    if(parent[a] == a){
+        return a;
+    }
+    return parent[a] = find(parent[a]);
+
+}
+
+boolean union(a, b){
+    int rootA = find(a);
+    int rootB = find(b);
+    if(rootA == rootB) {
+        return false;
+    }
+
+    parent[rootB] = rootA;
+    return true;
+}
+
+for(int i ){
+    for(int j = i + 1){
+        if([i][j] == 1){
+            if(union(i, j)){
+
+            count --;
+        }
+            }
+    }
+}
