@@ -1,0 +1,95 @@
+//보석쇼핑
+
+Set<String> set = new HashSet<>(Collections.ArrayList(gems.asList()));?
+Map<String, Integer> map = new HashMap<>();
+n = set.size();
+
+
+
+for(){
+    map.add(gems[i], map.getOrDefault(gems[i], 0) + 1);
+    if(n  == map.size()){
+        bl = 
+        br = 
+        for(l r 전까지){
+            l + 1; 
+            map[gems[i]] -= 1
+            if(map[] == 0){
+                map.remove();
+            }
+            if(그래도 같으면){
+                bl = l
+            }
+
+        }
+    }
+
+}
+
+arrays.sort()
+
+mid = 1 + length - 1 /2 
+
+while(left < right){
+    if(sum < x ){
+        leff +
+    }else{
+        count ++; 
+
+    }
+
+
+// 두 큐 합 
+
+queue sum /2 
+count = 0
+
+sum1
+
+sum2
+while(count < 4){
+    if sum1 > mid {
+        deque.poll   
+    }
+
+}
+
+//할인 행사 
+//파괴되지 않는 건물 
+
+for(sk : skill){
+    degree = sk[0] == 1 ? 1 : -1;
+    x1, y1, x2, y2;
+
+    diff[x1][y1] += 
+    diff[x1][y1 + 1] -=
+    diff[x2][y1] -=  
+    diff  [y2+ 1] +=
+
+
+}
+
+
+for(r){
+    for(c){
+        diff[][] = diff[][c-1]
+    }
+}
+
+for(c){
+    for(r){
+
+    }
+}
+
+
+
+
+int sum(sequence){
+    prefix[+1]
+    for(){
+        prefix[i] = prefix[i-1] + sequence[i];
+
+        max
+    }
+}
