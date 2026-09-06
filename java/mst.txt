@@ -1,0 +1,36 @@
+
+mst
+최소 비용 노드를 다 훑을 수 있음. (섬 / 도시 연결, 최소비용 네트워크 구축 등)
+
+
+핵심틀 -> 섬연결하기 
+
+
+parent = [i]
+for(){
+    parent[i] = i;
+}
+
+
+
+
+union
+find
+
+mst(){
+    Arrays.sort((a, b) -> Integer.compare(a, b));
+
+    for(){
+        u, v, cost =  arr[i];
+
+        if(union){
+            answer += cost;
+            count ++;
+            if(count == n -1){
+                break; 
+            }
+        }
+    return answer ;
+     
+    }
+}
