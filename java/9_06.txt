@@ -1,0 +1,122 @@
+//다익스트라 
+
+
+비용이 최소인 거리 
+
+
+
+
+static class Node(){
+    int to;
+    int cost;
+
+    node(){
+        this.to = to;
+        this.cost = cost;
+    }
+}
+INF
+graph[i]
+dist[i]
+Arrays.fill(dist, INF);
+
+dist[0] = 0; 
+PriorityQueue<Node> pq = new PriorityQueue<>((a, b) -> Integer.compare(a.cost, b.cost));
+
+pq.offer(new Node(0, 0));
+
+
+while(!pq.isEmpty()){
+    cur, cost = pq.poll();
+    if(cost > dist[cur]){
+        continue;
+    }
+    for(graph[]){
+
+        for(4) {
+            안맞으면 contineu 
+        }
+        next, nextCost + cost; 
+        if(dist[next] > nextCost){
+            dist = nextCost 
+            pq.offer(new Node(next, nextCost));
+        }
+    }
+}
+
+
+floyd-warshall 
+
+중간 다리, 전체 노드를 다 알아야 할 때 
+
+INF fill 
+
+for(){
+    to
+    cost
+    dist[from][to] = Math.min(dist 기존, cost)
+}
+
+
+for(k){
+    for(i){
+        arr[i][k] == IFN{
+            continue
+        }
+        for(j){
+            arr[k][j][
+                continue
+            ]
+
+            Math.min( 갱신 )
+        }
+    }
+}
+
+
+//순위 
+
+
+union-find 
+계속 합치고, 대장 찾기 -> 계속 바뀜 + 같은 집합 확인 반복 
+
+
+for(1){
+
+    parent[i+1] = i     
+}
+
+public find(a){
+    if(parent[a] == a){
+        return a
+    }
+    return parent[a] = find(parent[a]);
+}
+
+public boolean union(int a, int b){
+    rootA = parent[a];
+    rootB = parent[b];
+
+    if(a == b){
+        retrun false
+    }else{
+        parent[b] = rootA;
+        return true; 
+    }
+}
+
+네트워크 
+
+for(i){
+    for(j + 1){
+        if(computers[i][j] == 1){
+            if(union(i, j)){
+                count --; 
+            }
+        }
+    }
+}
+
+
+
+
