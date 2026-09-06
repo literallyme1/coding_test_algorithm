@@ -118,5 +118,101 @@ for(i){
 }
 
 
+//carpet
+
+for(i = 1; i =< yellow / 2; i ++){
+    length =i; 
+    width = yellow / i;
+
+    if(length < width){
+        break;
+    }
+
+    if( (length + 2) * (width +2 ) == brown){
+        return  int[]{+ 2, + 2}
+    }
+
+}
+return -1; 
+
+//징검다리 
+Arrays.sort();
+
+mid = 0 + 25 / 2; 
 
 
+while(left < right){
+    for(i){
+        if(mid > distance){
+            count --; 
+        }
+    }
+    if(count == n){
+
+    }
+
+}
+
+//징검다리 건너기 
+
+mid = 1 + max() / 2
+best = 
+while(left<right){
+    for(){
+        if(stonse[]<mid){
+            count ++
+            if(count > k){
+                right = mid - 1; 
+            }
+        }else{
+            count = 1; 
+        }
+        left = mid + 1; 
+
+
+        
+    }
+}
+
+//도둑질 
+원형 -> 처음 0 or x 로 나뉘어야 함. 
+
+dp[i](현재 훔칠 수 있는 최대값) = max(dp[i-1], dp[i-2] + money[i]);
+
+dp[0] = arr
+dp[0] = 0 
+for(0, 1){
+    dp[i] = max(dp[i-1], dp[i-2] + money[i]) 
+}
+
+//정수 삼각형 
+
+현재 가장 큰 것 = max()
+
+
+dp[][] = 마지막
+for(arr){
+    for(arr.length){
+
+        dp = max();
+
+    }
+}
+
+//거스름돈 
+
+prefix[0] = 1
+for(money){
+    prefix[i + 1] = prefix[i] + 
+}
+
+
+
+for(money){
+    for{
+
+            dp[amount ] = dp[amount - coin];
+            dp[amount] $ = mod;
+    }
+
+}
