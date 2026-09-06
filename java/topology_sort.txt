@@ -1,0 +1,33 @@
+//위상정렬 
+
+할 일의 순서가 있는 걸 전체 정렬 
+
+BufferedReader br = new BufferedReader(new IntputStreamReader(System.in));
+StringToknizer  st = new StringToknizer(br.readLine());
+
+st.nextToken();
+
+for(){
+    graph[a].add(b);
+    indegree[b] ++;
+}
+
+
+Queue<Integer> q = new ArrayDeque<>();
+for(){
+    if(indegree){
+        q.offer();
+    }
+}
+StringBuilder sb = new StringBuilder();
+while(!q.isEmpty()){
+    now = q.pollFirst();
+
+    sb.append(now).append(' ');
+
+    for(next : graph[now]){
+
+    }
+
+System.out.println()
+}
