@@ -1,0 +1,178 @@
+//mst 
+
+연결된 노드, 최소 
+
+
+
+krskal 
+
+
+Arrays.sort();
+
+find(a){
+    if(parent[a] == a){
+        return a
+    }
+    return parent[a] = find(parent[a]);
+
+}
+union(){
+    if(find(a) == find(b)){
+        return false;
+    }
+    parent[a] = b; 
+    return true; 
+}
+
+
+
+for(){
+    a, b, cost 
+    if(union(a, b)){
+        count ++; 
+        totalCost += cost; 
+
+        if(count == n -1){
+            break; 
+        }
+    }
+
+}
+
+
+Arrays.sort(arr, (a, b) -> Integer.compare(a[2], b[2]));
+
+
+parent = new int[n];
+
+for(){
+    parent
+}
+
+int answer = 0;
+int count = 0;
+
+
+for(){
+    a, b, cost
+    if (union(a, b)){
+        answer += cost;
+    }
+}
+
+
+//위상정렬 
+순서가 있는 정렬 
+
+
+List<ArrayList> arr = new ArrayList[n+1]; ?
+int[] indegree = new int[n];
+
+for(){
+    arr[i] = new ArrayList<>();
+}
+
+for(){
+graph[a].b;
+indegree[b] ++; 
+}
+
+for(){
+    if(indegree){
+
+    queue.offer()
+
+    }}
+
+count  = 0; 
+while(!){
+    queue.poll();
+    count ++; 
+
+    for(graph[]){
+        indegree -- ; 
+        if(0){
+            offer; 
+        }
+    }
+}
+
+
+if(count < n){
+    return -1 
+}
+
+//줄세우기 
+
+ List<Integer>[] graph = new ArrayList[n+1];
+
+
+ //보석쇼핑 
+
+
+
+
+Map<String, Integer> map = new HashMap<>();
+
+Set<> Set
+
+
+for(right){
+    while(same){
+        bl, br 
+    for(left<right){
+        left++;
+        if same{
+            chleornrks 
+            bl, br 
+            break;
+        }
+    }
+
+    }
+
+}
+
+//파괴되지 않은 건물 
+
+
+
+diff[+1][+1];
+
+for(){
+    diff[r][c] +
+    diff[r][c2 + 1] -
+    diff[r2+1][c2]
+    diff[r2+1][c2+1]
+}
+
+for(r){
+    c{
+       i += prev
+    }
+
+}
+
+for(c){
+    for(r){
+        i += prev
+    }
+}
+
+
+
+//펄스 
+
+1. abs 값 빼기 
+
+prefix 
+
+
+Math.abs(max - min)
+2. 지금까지 최고 
+
+
+max(prefix + arr, arr)
+
+
+value 1, sum + value1

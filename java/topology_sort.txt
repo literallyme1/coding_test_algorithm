@@ -31,3 +31,25 @@ while(!q.isEmpty()){
 
 System.out.println()
 }
+
+
+for(){
+    graph[i] = new ArrayList<>();
+}
+graph[a].add(b);
+
+
+Queue<Integer> = new ArrayDeque();
+
+for(){
+    indegree == 0
+    Queue.offer
+}
+
+Queue.isEmpty{
+    Queue.pollFirst();
+    for(graph[]){
+        indegree[] --
+        0이면 넣기 
+    }
+}

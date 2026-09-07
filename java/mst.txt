@@ -34,3 +34,16 @@ mst(){
      
     }
 }
+
+//최소 스패닝 트리 
+br.readLine
+
+arr.add(st.nextToken())
+
+arr[n+1][n+1];
+
+
+v, e, cost 
+
+
+sort((a, b) -> a[3], b[3]);
