@@ -1,0 +1,77 @@
+//tree
+서브트리(특정노드 안 개수)
+
+
+
+
+List<arrayList>[] node = new arrayList[n];
+for(){
+    arrayList
+}
+
+
+for(){
+
+}
+
+
+
+dfs(0, 1);
+
+
+
+
+
+public dfs(now, parent){
+    for(){
+        if(edge == now){
+            continue;
+        }
+        parent[dege] = prev;
+        dfs(next, now )
+    }
+}
+
+
+
+public int dfs(){
+    count1 = 1
+    for(){
+        if(){
+            continue
+        }
+
+        count2 = dfs();
+    }
+    return count1 + count 2
+}
+
+
+//리프 
+
+public dfs(){
+    leaf = tue 
+    for(){
+        if(){
+
+        }
+        leaf = false; 
+    }
+
+}
+
+
+public dfs(n, p, depth){
+
+
+    dfs(depth+ 1, )
+}
+
+for(){
+
+}
+
+트리지름 
+
+1. 먼노드 
+2. 시작점 끝점 -> 끝점에서 다시 시작 . 
