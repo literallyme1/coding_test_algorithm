@@ -1,0 +1,50 @@
+
+
+
+a &  (1 << i)  ! = 0 포함
+a | (1 << i) 선택(켜기)
+
+a &= ~(1 << i) 제거 
+a ^= (1 << i )
+
+
+부분 집합 , 선택 + 미선택 
+
+
+for(mask = 0; i < (1 << n); mask ++)
+
+Integer.bitCount(mask);
+
+전체 다 키기 1 << n - 1
+
+
+
+for(int mask =1 ; mask < (1 << col); mask ++){
+    true; 
+    for(){
+        if((mask & key) == key){
+            minimal = false;
+            break;
+        }
+    }
+
+    if(!minimal){
+        continue;
+    }
+
+    for(r){
+        StringBuilder sb = new StringBuilder();
+        for(c){
+            if(mask & (1 << c) != 0){
+                sb.append().append('|');
+            }
+        }
+        set.add(sb.toStirng());
+    }
+
+    if(set.size == row){
+        arrayList.add(masmk);
+    }
+
+
+}
