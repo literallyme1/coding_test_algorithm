@@ -1,0 +1,445 @@
+
+
+//카펫
+for(int i = 1 i * i <){
+
+    yellow / i  *2 + (i + 2) * 2
+
+    return   
+
+    i + 2 + 
+}
+
+//키보드
+
+
+
+for(){
+    ( == *) ? 10 : num; 
+
+    if(sb == '' || ){
+
+    }else if(){
+
+    }else{
+
+    }
+
+}
+
+
+public change(){
+    x = (num - 1)/ 3
+    y = (num -1) % 3 
+}
+
+//크레인
+
+for(){
+
+    for(r){
+        if(0){
+            continue;
+        }
+
+        deque.peekLast() == {
+            pollLast()
+            count + 1
+        }
+        deque.offerLast(graph[r][c])
+    }
+}
+
+
+//숫자 문자열
+
+
+word = ["one",]
+
+
+for(){
+    if(s.contians(word[i])){
+        s.replace(word[i], i);
+    }
+}
+
+//최소 스패닝 트리 
+
+
+union
+find
+
+
+//양방향 연결 
+
+for(){
+    parent[i]
+}
+
+
+for(){
+    if(union(a, b)){
+       count ++;
+        
+    }
+    if(count ==  n-1){
+        break;
+    }
+}
+
+//도시 분할 계획
+
+List<Integer>[] list = new ArrayList[n+1];
+
+
+list[i] = new ArrayList<>();
+
+or 
+
+static Edge{
+    int from
+    int to 
+    int cost
+    Edge(){
+
+    }
+}
+
+parent
+sort
+for(){
+
+
+    if(n-2 == )
+}
+
+
+//문제집 
+
+
+count[] fill 0 
+for(){
+
+    count ++
+}
+
+for(){
+    if(count == 0){
+        deque
+    }
+}
+whole = 0
+
+while(!deque.isEmpty()){
+    deque.pollFirst()
+    whole += 1; 
+    for(graph){
+        count --;
+        if(0){
+            deque.offerLast();
+        }
+    }
+
+}
+
+
+if(whole != n){
+    return deadLock 
+}
+
+//acm craft 
+
+dp + 위상정렬
+
+
+//음악 프로그램 
+위상정렬
+
+
+//보석쇼핑
+
+n = 4
+map = new hashmap
+for(){
+    right += 1
+    map.put()
+    if(n == map.size()){
+        while(left < right){
+            if(n != hash){
+                break;
+            }
+            left += 1
+            map --
+
+        }
+
+        if(left > 0){
+            if (br - bl > r -l){
+                갱신 
+            }
+        }
+    }
+}
+
+
+투포인터
+
+arrays.sort
+
+while(left<right){
+
+    while(sum > k){
+        left ++;
+        sum --;  
+    }
+}
+
+
+//정렬 two sum 
+
+arr.sort
+
+
+while(left <right){
+    if(){
+        count ++
+        left ++
+        right --
+    }else if( sum > ){
+        right --;
+    }else{
+        left ++; 
+    }
+}
+
+for( n * 2 + 1){
+    sum1 > n {
+        poll
+    }
+}
+//할인행사 
+
+
+
+map 으로 합치기 
+
+
+
+for(n )-> 슬라이딩 윈도우 map {
+
+}
+
+
+for ( window.length   len -1 ){
+    mpa -
+    map + 
+    if(map 1.eqauls(map2)){
+        return 
+    }
+}
+
+
+diff[n+1][m+1];
+for(){
+    fill(diff[], 0);
+}
+
+for(){
+    degree = ( >0)? -1 : 1;
+
+    diff[r1][c1]
+    diff[r1][c2 + 1] = -5
+    diff[r1+1][c1] = - n;
+    diff[r2+1][c2+1] = 5;
+
+}
+
+//부서지지 않는 건물 
+for(r){
+    for(c){
+        prev 
+
+    }
+}
+
+
+
+//연속 펄스
+
+
+for(){
+    prefix[n+1] = arr[i] + prefix[0];
+
+    return max(prefix) - min(prefix)
+}
+
+
+
+cur = max(prev + arr , arr); + 이건 2개 다 해야함. 
+
+
+
+
+Floyd-Warshall
+
+양방향 정리 
+
+
+for(from){
+for(to){
+    graph[from][to] 없으면 continue
+    for(){
+        graph[to][goal] 없으면 continue
+        if(Math.max(기존, 더한거)){
+            grapth[form][goal] = cost;
+        }
+    }
+}
+}
+
+
+
+for(){
+    max -> graph[4][i] + graph[i][a] + graph[i][b]
+}
+
+//경주로 건설 
+dist[][][dist]
+(for2){
+    if(wall 괜찮으면 ){
+        pq.offer( 100)
+    }
+}
+
+while(!pq.isEmpty()){
+    pq.poll();
+    dir
+    for(3){
+
+
+        if(dir == i){
+            cur +100
+        }else{
+            cur + 500
+        }
+
+        if(dist[next]){
+            continue;
+        }
+        pq.offer();
+    }
+}
+
+//다익스트라 
+
+
+inf fill
+
+
+
+for(){
+    출발점 넣기 
+}
+
+while(!pq.isEmpty()){
+    poll()
+
+    if(dist < cost){
+        contiue;
+    }
+
+    for(graph){
+        if(cost){
+            dist[] = cost
+        넣기 
+        }
+
+    }
+}
+
+//호텔 방배정 
+
+
+
+    for(){
+        answer = find(1)
+    }
+
+find(int num){
+
+    if( ==){
+        prev= parent
+        parent[parent] ++';
+        return prev
+    }
+    
+    return parent = find(parent[a]);
+}
+
+//표 병합
+
+
+union(a, b);
+
+
+ofr(){
+    updage -> 부모 변경 
+    merge -> union
+    unmerge
+    parent = 다시 자기 자신 
+}
+
+
+//트리 
+
+
+
+
+deque 
+
+
+while(){
+    //전위
+    for(){
+    if(이전이 아니면)
+
+    if node > cur{
+        left = node
+    }else{
+        right = node
+    }
+    dfs(next, cur);
+    }
+
+    //후위
+}
+
+
+
+
+dfs(1, 0)
+
+
+
+
+
+
+for(i = 1; i < n + 1)
+
+dp[i] = max( 이전, 이이전 + 현재)
+
+
+
+dp
+
+
+
+
+bfs(){
+    poll
+    for(){
+        if( 방문){
+            conitni
+        }
+    }
+}

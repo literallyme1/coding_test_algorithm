@@ -48,3 +48,61 @@ for(int mask =1 ; mask < (1 << col); mask ++){
 
 
 }
+
+Arrays (a, b) -> {
+    if(다르면)Integer[] []
+    return 
+}
+
+
+graph
+
+for(){
+    if()
+}
+
+
+
+
+
+
+dfs(){
+
+
+    dfs()
+}
+
+
+
+minimal =false
+
+
+
+for(key){
+if(mask & key == key){
+    minimal = false;
+    break;
+}
+
+}
+if(!minimal){
+    continue
+}
+
+set
+
+for(){
+    if((mask & (1 << c) != 0)){
+        sb.append(relation).append
+    }
+
+    set.add(sb.toStirng());
+
+    if(set == row){
+        candidate.add(mask;)
+    }
+}
+
+
+
+
