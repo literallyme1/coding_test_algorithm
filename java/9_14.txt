@@ -1,0 +1,113 @@
+//전화번호 목록 
+
+
+sort
+
+for(){
+    for(){
+    if(ar[i].contains())
+    }
+
+}
+
+//모음 사전 
+
+
+
+public void backtrack( count){
+
+    if(a == target){
+        return count 
+    }
+
+    if(len == 5) {
+        return false
+    }
+
+    for(vowels){
+        if(dfs(current + vowel, target)){
+            true
+        }
+    }
+
+
+
+
+}
+
+//n-queen 
+
+
+
+dfs(){
+    //가능한곳
+    1. 같은 C X, 대각선 X C + 1, C-1 X  
+    2. if 더이상 갈 곳 없으면 return 
+
+}
+
+
+for(4){
+    dfs()
+}
+
+
+backtrack(){
+    n == 
+    reutnr 
+
+    ofr(){
+        if(canplace){
+
+            queen = 
+            dfs(row + 1, n)
+        }
+    }
+}
+
+
+//디스크 컨트롤러
+
+
+priorityQueue pq 
+
+time = 0;
+
+while(empty){
+    time += 2; 
+
+}
+
+//문자열 압축
+
+
+for(i){
+or(i , i+i){
+    substring(i)
+    if(cur == prev){
+        count ++;
+    }else{
+        if(count){
+            sb.append
+        }
+        sb.append
+    }
+}
+}
+
+//n진수 게임
+//베스트 앨범
+
+map = getOrDefault(key, new ArrayList<>())
+
+int[]{i, 500}
+
+isprime(){
+  2  i * i < length {
+    if(num %  -==0 ){
+        flase;
+    }
+    }
+}
+
+
