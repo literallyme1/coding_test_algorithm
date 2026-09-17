@@ -1,0 +1,134 @@
+//뉴스 클러스터링 
+
+
+
+
+arr = change();
+
+
+
+for(){
+    if(arr.contains()){
+        arr.remove();
+    }
+}
+
+
+
+public List<StringL> change(){
+    for(int = 1, i < str.length(); i++){
+       arr.add(' ' + str[i -1] + str[i]) 
+    }
+}
+
+//모의고사 
+
+if (%3 == answer) count++;
+Math.max(arr)
+
+
+arr.stream().max().getAsInt()
+
+//전화번호 목록 
+
+for(){
+    if(str.substring() == ){
+        return false
+    }
+}
+return true; 
+
+
+//방문길이 
+
+
+for(){
+    if charAt(i) == L {
+        if(){
+            //contains or 넘치거나 
+            continue
+        }
+    }else if(){
+
+    }else {}
+    set.add(x + y + x1 + y1)
+}
+
+//모음사전 
+
+
+backtrack(){
+    if(lenght == 현재) {
+        if(target){
+            count;
+        }
+    }
+    count = 1
+
+    for(){
+        count += backtrack( + i, depth)
+    }
+    return count 
+}
+
+//n queen 
+
+
+for(){
+    dfs(i)
+}
+
+
+dfs(){
+    if(i <length )
+    for()
+    //같은 컬럼 x
+    Math.abs(r - r2)  == Math.abs(c - c2)
+    continue
+
+
+}
+
+//디스크 컨트롤러 
+pq (return Integer.compare(a[1], b[1]));
+
+while(){
+    pa.pollFirst();
+    if(camera < start){
+        count ++ 
+        camera = end; 
+        time += 
+    }
+    for(){
+        if(time){
+            pq.append
+        }
+    }
+    pq.pollFirst;
+    time = 
+}
+
+
+//카펫
+
+
+
+for(){
+
+}
+
+//크레인 
+for(c){
+    for(r){
+        if(0){
+            continue
+        }
+        catch = 
+        if(peekFirst() == catch){
+            pollFirst()
+            count ++; 
+        }
+    }
+}
+
+//숫자 문자열
