@@ -1,0 +1,30 @@
+int[] = new int[];
+arr.length
+
+
+Arrays.sort()
+arr.clone();
+
+int[] arr - new int[N];
+for(int){
+    arr[i] = Integer.pars
+}
+
+int[] arr = Arrays.copyOfRange(arr, start, end);
+
+for(char c : str.toCharArray()){
+    arr[c -'a'] ++;
+}
+
+크면 amp 을 쓰기. 
+
+원형 배열 
+
+
+(n + 1) % n // 다음칸
+( n + k) % n //k 칸 
+(i -1 + n) % n //이전 , 음수 조심하기  
+
+
+Arrays.copyOfRange()
+(i - 1  + n) % n

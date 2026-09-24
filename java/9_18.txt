@@ -1,0 +1,83 @@
+
+
+ p + (m * t)
+
+ for(){
+    String.toInteger(, ).toUpperCase()
+ }
+
+ //베스트 앨범 
+
+ 
+ map.put(genre, map.getOrDefualt(genre,  0) + 1);
+plays.computeAbsent(() -> new ArrayList).add(int[]{i, plays[i]})
+
+String[] key = map.getKeySet();
+
+key.sort((a, b) -> Integer.compare(map.get(b), map.get(a)));
+
+for(genre){
+    if(plays.get(genre).size() > 2){
+        for(2){
+                arrayList.add();
+        }else{
+            for(length){
+                arrayList.add();
+            }
+        }
+    }
+
+}
+
+//소수찾기 
+
+bitmasking
+
+
+
+dfs(){
+for( int i = 0; i < (1 << str.length); i ++){
+    if(visited & (1 << i)){
+        continue;
+    }
+    visited |=  (1 << i)
+    dfs()
+    visited ^= (1 << i)
+}
+}
+
+isPrime(){
+    if ( <2){return false}
+    if (number % i){
+        return false
+    }
+}
+
+//보석쇼핑
+for(){
+set
+}
+
+for(right){
+    map.size() == set {
+
+        while(set == map){
+                        if(br - bl > r - l){
+                바꾸기 
+            }
+            l ++ ;
+             --; 
+            
+            if(0){
+                remove
+            }
+
+
+
+
+        }
+    }
+}
+
+
+정렬 Two 

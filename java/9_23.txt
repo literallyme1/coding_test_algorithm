@@ -1,0 +1,162 @@
+//1차원 배열 
+
+int[] arr = new int[];
+
+for(i = 0 ; i < arr.length; i++){
+    System.println(Arrays.toString(arr));
+}
+
+
+arr.indexOf(1); //인덱스 값
+
+arr.stream().max().getAsInt()
+arr.stream.sum();
+Arrays.fill(arr, -1);
+Arrays.sort(arr);
+Arrays.copyOfRange(arr, 1, 4);
+
+
+Arrays.equals(arr1, arr2){
+
+}
+
+int[] copy = arr.clone();
+
+BufferedReader br = new 
+StringTokenizer st = new StringTokenizer(br.readLine()); 
+Integer.parseInt(st.nextToken);
+
+Arrays.sort(arr);
+int idx = Arrays.binarySearch(arr, target); 
+
+
+if(idx > 0){
+
+}
+
+int[][] map = new int[N][M];
+
+n = map.length;
+m = map[0].length;
+
+
+for(int r = 0; ){
+    for(int m = 0;){
+
+    }
+}
+
+for(r){
+    StringTokenizer st = new StringTokenizer(br.readLine());
+    map[r] = br.readLine.toCharArray();
+    for(c){
+        map[r][c] = Integer.parseInt(st.nextToken());
+        map[r][c] = br.readLine().charAt(c) - '0';
+    }
+}
+
+if(nr < 0 || nr >= N || nc < 0 || nc >= M){
+    continue;
+}
+
+//ArrayList
+
+List<Integer> list = new ArrayList<>();
+
+list.add();
+list.set(index, a);
+
+
+list.contains(){
+
+}
+
+
+list.sort(Collections.reverseOrder());
+list.sort(Compartator.naturalOrder());
+
+list.size();
+list.remove(index);
+list.remove(Integer.valueOf(1));
+list.get(list.size()-1);
+
+
+if(!list.isEmpty()){
+    list.clear();
+}
+
+int index = list.indexOf(1)
+
+
+list.stream().mapToInt(Integer::intValue)
+.toArray();
+
+
+
+
+
+int day
+
+
+for(){
+    if(day > ){
+        count ++
+    }
+}
+
+
+//bfs
+
+int N = maps.length;
+int M = maps[0].length;
+
+
+int dr = {0,0,1,-1};
+int dc = {1, -1, 0, 0};
+
+
+
+boolean[][] visited = new boolean[N][M];
+Deque<int[]> queue = new ArrayDeque<>();
+
+queue.offerLast(int[]{0, 0, 1});
+visited[0][0] = true;
+
+while(!queue.isEmpty()){
+    int[] cur = queue.pollFirst();
+
+    int r = cur[0];
+    int c = cur[1];
+    int dist = cur[2];
+
+    if(r == N -1 && c == M-1){
+        return dist;
+    }
+
+    for(4){
+        int nr = r +
+        int nc = c + 
+
+        if(nr < 0 || nr >= N || nc < 0 || nc >= M){
+            continue;
+        }
+        if( != 0)
+
+        visited[][] = true;
+        queue.offerLast(int[]{nr, nc, dist+1})
+    }
+}
+ruturn -1; 
+
+
+최단거리, 최소 볓칸, 가장 빠른 시간, 
+
+
+변형 신호 
+
+시작점이 여러개 
+되는 곳 안되는 곳 가정 
+
+
+
+if(0)
