@@ -347,3 +347,39 @@ sort
 for( int i  = 0){
     Math.max(answer, [i] * n-i)
 }
+
+
+---
+완전탐색
+
+작은 N, 모든 경우 파악. 
+
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+Integer.MAX_VALUE;
+
+for(i){
+    for(j = i + 1){
+        for(k = j + 1){
+            if(limit)
+        }
+    }
+}
+
+for(){
+    for(){
+        if(i = j) continue
+    }
+}
+
+int nr = r;
+int nc = c;
+
+if(dir == 'N')
+
+boolean possible = true;
+//조건 
+for(){
+    nr += dr;
+    nc += dc
+}

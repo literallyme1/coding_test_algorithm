@@ -1,0 +1,814 @@
+
+
+#언제? 
+#시간복잡도 
+# 문제 유형 
+
+
+# bfs
+
+#언제? 
+- 최단 거리, 비용 X 
+#시간복잡도 
+- n, m -> 1000
+
+# 문제 유형 
+
+
+1. 기본 형 
+
+
+bfs(){
+    queue.pollFirst
+
+    //target 있을 시. 
+
+    for(4){
+        if(길이 막힘 등 ){
+            continue
+        }
+        visited = true ; 
+        offer
+    }
+
+
+}
+
+2. ? 
+bfs(){
+    queue.pollFirst
+
+    for(4){
+        nr = r
+        nc  = c
+        while(){
+        if(길이 막힘 등 ){
+            break
+        }
+        }
+
+        r = nr 
+        c = nc
+
+    }
+}
+
+3. 동시 확산 
+
+for(){
+    for(){
+        if(start){
+            먼저 넣기 
+        }
+    }
+}
+
+
+while(isEmpty)
+
+
+
+Arrays.fill(dist, -1);
+
+
+dist[start] = 0;
+
+
+if(dist != -1)
+
+
+#dfs
+
+#언제?
+영역, 덩어리, 연결 
+
+#시간복잡도 
+같은데, 재귀 부담 가능 
+
+# 문제 유형 
+
+1. 기본형
+
+dfs(){
+    int count = 1
+    for(){
+        if()continue;
+        count += dfs();
+    }
+
+}
+2. 전체 or not 
+
+3. depth
+
+
+for(){
+    if(!visited)[
+        count ++
+        dfs()
+    ]
+}
+
+dfs(){
+    visited = true;
+    for(){
+        if(visited){
+            dfs(next)
+        }
+    }
+}
+
+
+#backtrack 
+
+#언제? 
+전체 나열, 순열, 조합 
+#시간복잡도 
+적었던 걸로 기억 
+
+# 문제 유형 
+
+#순열
+
+backtrack(){
+
+    if( && target){
+        return 
+    }
+    for(visited){
+        if(!){
+            visited = true;
+            backtrack(depth + 1)
+            visited = false; 
+        }
+
+
+    }
+}
+
+#조합 
+
+    for(j = i + 1){
+        selected
+        dfs(i, )
+    }
+
+
+# 중복 순열 
+visitd X
+
+# 중복 조합 
+
+
+#greedy
+
+
+#언제? 
+
+- sort, 그 후의 영향 X, 풀릴 때 
+
+#시간복잡도 
+sort 가 되면 됨. 
+
+# 문제 유형 
+
+
+1. 무게 
+
+Arrays.sort();
+
+while(){
+
+    if(){
+        left++
+    }
+    right -- 
+}
+
+2. 가장 빠르게 
+
+
+for(){
+    if(end < start){
+        count++
+        end = start 
+    }
+}
+
+
+3. 작은 비용 선택
+
+sort
+for(){
+    if(> buget)break
+    sum += buget 
+    count ++ 
+}
+
+
+//완전탐색 
+
+#언제? 
+다해도 될  때 
+
+
+#시간복잡도 
+2중 for 5000
+3중 for 500 
+
+# 문제 유형 
+
+
+
+#언제? 
+
+규칙이 주어지고, 그대로 하면 될 때 
+
+#시간복잡도 
+2중 for 5000
+3중 for 500 
+
+# 문제 유형 
+
+
+1. 좌우탐색 (하나잘못되면 엎기)
+
+for(){
+    nr = r
+    nc = c
+    true
+    for(){
+        if(){
+            break
+            false
+        }
+    }
+
+    if(){
+        r = nr
+        c = nc 
+    }
+}
+
+dir + 1 % 4
+
+
+
+for(){
+    for(){
+        new[c - 1 - m ][r - 1 - n] = original[r][c]
+    }
+}
+
+
+중력 / 빈칸메우기 
+
+c {
+    row = n- 1
+}
+for( n - 1  --){
+
+    if( block 이면){
+        temp = 
+        비우기 
+        row = temp
+        row -- 
+    }
+}
+
+// 몸 머리 
+
+
+deque +=
+visited = true
+
+if
+
+
+//이분탐색
+
+#언제?
+
+탐색
+
+#시간복잡도 
+10만 가능 
+
+# 문제 유형 
+
+1. target 찾기 
+
+Arrays.sort()
+
+left = 0
+right = length -1 
+
+while(left < right){
+    mid = left + right / 2;
+
+    if(mid == tra){
+        return
+    }else if(mid > tar){
+        right = mid -1; 
+    }else{
+
+    }
+}
+2. 타임 안 가능 
+
+
+while(){
+    mid = 
+
+    count = mid / time
+
+    if(count < n){
+        answer = count; 
+        right = mid -1; 
+    }else{
+        ? 
+    }
+}
+//투포인터
+
+#언제? 
+동적 구간 양방향, 동방향 
+#시간복잡도 
+?
+
+# 문제 유형 
+1. 기본형
+
+while(left <= right){
+    if(){
+        right --
+    }
+}
+
+
+2. 동방향 (hash map 을 사용하기도 함.)
+
+for(right ){
+
+    while(맞으면){
+        left -- 
+
+        count -= 1
+        if(map == 0){
+            remove 
+        }
+
+    }
+}
+
+if(sum == traget){
+
+}
+
+if(sum  )
+
+
+
+//Sliding Window
+
+#언제? 
+
+고정 구간 
+#시간복잡도
+다해도 될걸?
+
+# 문제 유형 
+
+1. 기본형
+
+
+for(){
+
+}
+
+
+for(){
+    += arr[i]
+
+    -= arr[i - k]
+
+    if(){
+        count ++
+    }
+}
+
+map.getOrDefault(key, )
+map.put(key, map.get(key) - 1)
+start + k -1 % n 
+
+
+//prefixSum
+
+#언제? 
+누적합 
+#시간복잡도
+
+# 문제 유형 
+
+1. 기본형
+
+for(0)
+prefix[i+1] = prefix[i] + arr[i]
+
+2~5
+prefix[5]- prefix[1] 갑자기 왜? 
+
+
+2. 2차원
+
+prefix[r +1][c + 1] = prefix[r+1][c] + prefix[r][c + 1] - prefix[r][c] + arr[r][c]
+(x1, y1) ~ (x2, y2)= prefix[x2+1][2_1] - prefix[x2][y1] - prefix[x1][y2]  +  prefix[r][c]
+
+
+3. k 구간 
+
+prefix - k = 이전합 
+
+map(0L, 1)
+
+for(){
+    sum += arr
+    answer += getdefault (sum - k )
+
+    map(sum) + 1 
+}
+
+
+4. 차분 배열 
+
+
+x  = 3  ~ x+ 1 = -3
+x, y+1 = -3 x+1, y+1 = 3 
+
+
+
+//DP
+
+#언제? 
+경우의 수 이번 선택 -> 다음 선택에 영향 
+
+#시간복잡도 
+# 문제 유형 
+
+
+#1. 최대 & 최소, 경우 (+) 
+
+dp[i] = max(dp[i-2], dp[i]+ arr[i])
+
+dp[i] = dp[][0] + dp[][1]
+
+격자 경로 dp
+
+for(r){
+    for(c){
+
+    }
+}
+
+
+lis
+
+for(){
+
+}
+
+
+
+
+//다익스트라
+
+#언제? 
+비용이 있는 최단 거리 
+
+#시간복잡도 
+
+# 문제 유형 
+
+1. 기본형
+
+
+public Node(){
+    int cost
+    int to 
+
+    public void Node(to, cost){
+        this.to 
+        this.cost
+    }
+}
+
+
+dist[start] = 0; 
+queue.offerLast()
+
+while(){
+
+    to, costqueue.poll;
+
+    if(cost >= dist){
+        continue
+    }
+
+    for( : graph[]){
+
+        next_to
+        nextCost
+
+        if(nextCost >= dist){
+            continue
+        }
+
+        dist = next
+        queue.offerLast
+    }
+}
+
+
+if(count != N){
+
+}
+
+//union-find
+
+#언제? 
+
+부모를 하나로 합칠 때
+
+#시간복잡도 
+# 문제 유형
+
+1. 기본형 
+
+public find(){
+
+    if(parent[i] == i){
+        return i
+    }
+
+    return parent[i] = find(parent[i])
+}
+
+public boolean union(a, b){
+
+    if(find(a) == find(b)){
+        return false
+    }
+    parent[a] = b;
+
+    return true ; 
+}
+
+
+for(){
+    if(unino){
+        count --; 
+    }
+}
+//위상정렬
+
+#언제? 
+
+정렬에 순서가 있을 때 
+
+#시간복잡도 
+array 만큼 
+
+# 문제 유형 
+
+1. 기본형 
+
+for(){
+
+    graph[] = b
+    indegree[b] ++; 
+}
+
+for(){
+    if(0)
+    queue.offer()
+}
+
+while(!queue.isEmpty()){
+
+    poll;
+
+    for(){
+        indegree --;
+
+        if(0){
+            offerLast;
+        }
+    }
+}
+
+
+if(count == n){
+
+}
+
+
+//트리
+
+#언제? 
+부모 자식 노드, 리프 등 
+#시간복잡도 
+
+
+# 문제 유형 
+
+1. 기본형
+
+
+dfs(){
+
+    leap
+    for(){
+        if(paretn 아니면 )
+        //전위 
+        dfs(parent, next)
+        //후위
+        leap = true; 
+    }
+
+}
+
+
+2. 지름 
+
+static int maxDist;
+static int node; 
+
+dfs(){
+    if(){
+        maxDist, node
+    }
+
+    for(){
+
+    }
+
+}
+
+
+(0, 0)
+
+dfs(maxdiff, )
+
+
+
+#1차원 배열 
+
+
+int[] arr = new int[n];
+
+for(int a : arr){
+    System.println(a);
+}
+
+arr.length
+Arrays.sort(arr);
+arr.contains(){
+
+
+Arrays.fill(arr, -1);
+
+Integer.parseInt(st.nextToken());
+}
+
+int sum = arr.stream().max().getAsInt()
+int maxValue = arr.stream.sum()
+
+
+Arrays.sort();
+
+Arrays.binarySearch(arr, );
+
+
+int[][] graph = new int[][];
+
+
+for(){
+    Arrays.fill()
+}
+
+
+arr.length = r
+
+arr[-0].length
+
+
+for(){
+    StringTokenizer st = new StringTokenizer(br.readline());
+    for(){
+        Integer.parseInt();
+    }
+}
+
+
+for(){
+    br.readline().toCharArray()
+}
+
+List<ArrayList>[] = new ArrayList[];
+ArrayList
+
+List<Integer> list = new ArrayList<>();
+list.size();
+list.add();
+list.set(index, a);
+
+list.remove(index);
+list.remove(Integer.valueOf(a)); //value
+list.contians();
+
+list.get();
+
+
+list.sort(Collections.reverseOrder());
+list.sort(Comparator.naturalOrder());
+
+list.indexOf(x);
+
+int[] arr = list.stream().mapToInt(Integer::intValue).toArray();
+
+
+문자열 정리 
+
+
+str.charAt(
+)
+
+str.toCharArray();
+
+str.subString(start, end);
+
+
+str.replace(a, b);
+str.startWith()
+str.endWtih()
+
+str.length()
+str.contains()
+str.equals()
+str.equalsIgnoreCase();
+str.toUpperCase();
+str.toLowerCase();
+str.split(" ");
+str.split("//+"); . | 모두 앞
+str.indexOf("abc");
+
+Character.isLetter()
+Character.isDigit();
+
+StringBuilder sb = new StringBuilder();
+sb.append();
+sb.deleteCharAt(2);
+sb.delete(2, 4);
+sb.toString; 
+sb.setCharAt(index, 'A');
+sb.reverse();
+
+
+int[] count = new int[26];
+
+for(char ch : str.toCharArray()){
+    count[ch - 'a'];
+}
+
+int cmp = a.compareTo(b); 음수 a 앞, 양수 b 앞 
+
+Map<String, Integer> map = new HashMap<>();
+
+
+map.put();
+map.getOrDefault(key, 0) + 1
+
+map.keySet();
+map.valueSet();
+Map.Entry<String, Integer> entry : map.EntrySet();
+
+map.computeIfAbsent(key, k -> new ArrayList<>()).add();
+
+List<Map.Entry<>> list = new ArrayList<>(map.entrySet());
+
+list
+
+Set<> new HashSet<>();
+
+Set<Integer> intersection = new HashSet<>(set);
+
+intersection.retainAll(setB)
+union.addAll()
+
+diff.removeAll(setB);
+
+Set<Integer> set = new TreeSort<>();
+set.fi
+
+//arrayDeque
+
