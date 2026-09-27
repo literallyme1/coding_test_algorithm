@@ -1,0 +1,371 @@
+//1차원배열
+
+
+for(topping){
+    if(count[i] == 0){
+        various ++; 
+    }
+    count[i] ++;
+}
+
+for(){
+    count[i] --
+    if(){
+        various2 ++; 
+        various --; 
+
+        if(){
+            result ++; 
+        }
+    }
+}
+
+//삼각 달팽이 
+
+
+
+dr = {1,  0, -1}
+dc = {0, 1, -1}
+
+
+for(n){
+
+    nr = r
+    nc = c
+    while(true){
+        nr += dr[]
+        nc += dc[]
+        if(){
+            i = (i + 1) %3
+
+            break
+        }
+        list[i] = 
+
+
+    }
+
+}
+
+//전력망 둘로 나누기 (dfs)
+
+
+List<ArrayList>[] graph = new ArrayList[]; //자료형은 어케 알지? 
+for(){
+    graph[] = new ArrayList<>();
+}
+
+for(){
+    node 
+}
+
+
+
+boolean[] visitd = new boolean[];
+
+public void dfs(node1, node 2, cur){
+
+    count = 1
+    for(graph[cur]){
+        if(node1 == cur && node2 || ){
+            continue; 
+        }
+        if(!visited){
+            count += dfs(n1, n2, cur)
+        }
+    }
+    return count
+
+}
+
+for(){
+
+
+}
+
+//문자열 처리 (신규 아이디 추천)
+
+
+toLowerCase()
+
+
+for(toCharArray){
+    boolean Character.isLetterOrDigit(ch) || ch == 
+}
+if(){
+    continue
+}
+
+if(sb > 0 && sb.)
+
+
+//같은 숫자 싫어. 
+
+
+for(1){
+    if(peekLast == ){
+        continue; 
+    }
+}
+
+//의상 
+
+
+for(){
+    count *= (n+1)
+}
+
+count - 1 (아무것도 안입는 경우 )
+
+
+//방문 길이 
+
+
+for(){
+    if(L) dr = 
+    elseif
+    if(){
+        continue
+    }
+    if(contianse()){
+    set.add(" " + x1 + x2 + )
+    set.add()
+    count ++ 
+    }
+
+
+}   
+
+//괄호 회전하기 
+
+
+for(){
+    pollFirst
+    offerLast
+
+    for{
+        ?
+    }
+}
+//리코쳇 로봇 
+
+
+
+
+dfs(){
+
+    for(4){
+
+        nr = r
+        nc = c
+
+        while(){
+            if(){
+            
+            break;}
+            
+            nr + d
+
+        }
+
+        r = nr 
+        c = nc
+        if(visitd)
+        dfs(nr, nc )
+
+
+
+        }
+
+
+    }
+}
+
+//디스크 컨트롤러
+
+
+priorityQueue((a, b) -> Integer.compare(a[1], b[1]));
+while(){
+    if(!queue.isEmpty){
+        time += 
+        average += time - a[0]
+
+            for(time >){
+        queue.offer()
+    }
+    }else{
+        start 넣고 
+        time = start
+    }
+
+
+}
+
+//단속 카메라 
+
+
+
+sort(end);
+fist = Integer.MIN_VALUE;
+for(){
+    if(camera < start){
+        camera = end;
+        count ++; 
+    }
+}
+
+
+for(c){
+    for(r){
+        if(0){
+            contiune
+        }
+
+        deque.peekLast() == {
+            pollLast
+            count++; 
+        }
+        offerLastl 
+    }
+}
+
+//디딤돌 
+
+
+max = stream.max().getAsInt()
+
+
+
+
+for(){
+    if(max > ){
+        count ++;
+        if(k){
+            break;
+        } 
+
+    }else{
+        count = 0; 
+    }
+}
+
+
+sort
+
+for(){
+    if(left + right  == target){
+        count++;
+        left ++ 
+        right --
+    }
+}
+
+//파괴되지 않는 건물 
+
+
+for(){
+    x1,y1 = 3
+    x
+}
+for(r){
+    sum += 
+    arr[] += sum 
+}
+for(c){
+
+}
+
+
+//첫집0
+
+for(i = 2  n -1  ){
+   dp[i] = Math.max(dp[i-2] + arr, dp[i-1])
+}
+
+for(i = 1  < n){
+`
+}
+max(1, 2)
+
+//등산 코스 정하기 
+
+
+
+
+priorityQueue
+
+
+dist[0] = 0;
+pq.offer();
+
+while(pq.isEmpty){
+
+
+    now, cost = pq.poll();
+
+    if(cost >= dist[i] ){
+        continue
+    }
+    if(summit ==){
+            continue
+        }
+
+    for(){
+        if(contians ){
+            continue
+        }
+        if(nextCost < dist[] ){
+                    dist = nextCost
+
+
+        queue.offer(next, nextCost)
+        }
+
+    }
+}
+
+
+uion(){
+    parent = find(A)
+    if(parent != 찾는방){
+        parent[i] += 
+    }
+    true
+    false
+}
+
+find(){
+    if(a = parent[a]){
+        return a
+    }
+    reutnr b +1 
+}
+
+if(parent != a){
+
+}
+
+//음악 프로그램 
+
+for(){
+    indgree
+}
+
+for(0){
+
+}
+
+
+
+
+dfs(){
+
+    ///sheep or wolf 넣기
+        max = 
+    if(sheep > wolf){
+
+        dfs(sheep, wolf)
+    }
+}
+
+
