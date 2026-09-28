@@ -1,0 +1,1142 @@
+
+
+//1차원 배열 
+
+
+int[] arr = new int[];
+
+for( : arr){
+
+}
+
+int[] copy = arr.clone();
+Arrays.sort(arr);
+
+arr.copyOfRange(start, end);
+
+Arrays.fill(arr, -1);
+
+Arrays.eqaul(arr1, arr2){
+
+}
+
+Arrays.copyOfRange(
+ㅇ
+
+)
+int sum = arr.stream().sum();
+
+int max = arr.stream().max().getAsInt();
+
+Arrays.sort();
+Arrays.binarySearch(arr, target); 
+
+if(idx >0) {
+
+}
+
+
+#2차원 배열 
+
+
+int[][] arr = new int[][];
+arr.length 
+arr[0].length
+
+
+for(){
+    Arrays.fillarr[i]
+}
+
+
+#ArrayList
+
+
+List<Integer>[] arr = new ArrayList[];
+
+
+List<Integer> arr  = new ArrayList<>();
+
+arr.size();
+
+arr.contians();
+
+
+arr.get();
+arr.set(index, value);
+arr.remove(index);
+arr.remove(Integer.valueOf(value));
+arr.stream()
+.mapToInt(Integer::intValue)
+.toArray();
+
+
+arr.isEmpty();
+arr.indexOf(x);
+
+arr.sort(Collections.reverseOrder());
+arr.sort(Comparator.naturalOrder());
+
+list.clear();
+
+
+#문자열 처리 
+
+str.replace("" , "change");
+
+str.split("//+"); //. //|
+
+Character.isLetter , Character.isDigit, Character.isLetterOrDigit
+
+str.contians()
+
+str.startsWith("")
+str.endsWith("")
+str.toCharArray();
+
+
+StringBuilder sb = new StringBuilder();
+sb.append
+sb.delete()
+st.toString();
+sb.setCharAt(index, );
+sb.delete(start, end);
+sb.deleteCharAt(); 
+
+
+
+int ch = num - '0';
+int ch = alpha - 'a';
+int cmp = a.compareTo(b);
+음 앞, 양 뒤 
+
+str.lenght();
+str.charAt;
+str.subStirng()
+str.equals();
+str.equalsToIgnoreCase
+
+
+
+#HashMap
+
+
+
+Map<Integer, String> map = new HashMap<>();
+
+map.put();
+map.getOrDefault(key, 0)
+map.putIfAbsent(key, value);
+map.computeIfAbsent(key, k -> new ArrayList<>());
+
+// get?
+map.get(key);
+
+map.keySet();
+map.valueSet();
+map.entrySet();
+
+List<Map.entry<Integer, String>> list = new ArrayList<>(map.entrySet);
+
+for(Map.entry<I, s> entry : map.entrySet){
+    getKey
+    getValue
+}
+
+#HashSet
+
+Set<Integer> set = new HashSet<>();
+
+set.size();
+
+
+if(!set.add()){
+    안된거임. 
+
+}
+
+set.contains();
+set.add();
+set.remove();
+
+Set<Integer> set = new TreeSet();
+set.first();
+set.last();
+
+
+//교집합
+
+Set<Integer> set = new HashSet<>(se2t);
+
+set.retainAll(se2t);
+set.addAll(se2t); 
+set.removeAll()
+
+
+//ArrayDeque
+Deque<Integer> deque = new ArrayDeque<>();
+
+deque.offerLast,offerFirst
+deque.peekFirs, last
+deque.pollFirst, pollLast()
+
+deque.isEmtpy 꼭 선행조건 
+Arrays.sort(arr, from, to)
+;
+
+//pq
+
+Queue<Integer> queue = new priorityQueue<>();
+
+queue.offer(); //peek, poll
+
+queue.isEmtpy, queue.size();
+
+
+//bfs
+
+최단거리, 최소 횟수 
+
+
+시간복잡도 
+n, m = 1000
+
+
+1. 기본
+
+
+
+Arrays.fill(dist, Integer.MIN_VALUE);
+deque queue = new ArrayDeque ;
+
+dist[0] = 0
+queue.offerLast();
+while(ismepyt){
+
+    queue.pollLast();
+
+    for(){
+        if(){ continue; }
+
+        visited = true;
+        queue.offer;  
+
+    }
+}
+
+
+2. 동시 시작
+
+for(){
+    다 넣고 시작 
+}
+3. if
+
+
+for(){
+
+    if(가능){
+
+    }else{
+        if(visited[][][] = false){
+            true; 
+            visitd = true; 
+
+        }
+    }
+}
+
+#dfs
+
+영역, 덩어리, 연결 개수 
+
+n, m 1000, 재귀 부담 -> bfs 로 바꿔. 
+
+
+1. 기본형 
+
+
+for(){
+    if(!visited){
+        count ++; 
+        dfs
+    }
+}
+
+
+dfs(){
+
+    for(){
+        if(continue)
+        visited = true; 
+        dfs();
+    }
+}
+
+
+dfs(){
+    count = 1
+    for(){
+        if(continue)
+        visited = true; 
+        count += dfs();
+    }
+    return count; 
+}
+
+
+#backtrack 
+
+경우의수, n 이 작을 때, 순열, 조합
+
+
+
+순열
+
+
+
+dfs(){
+
+    visited=true;
+    selected[dist] = i
+    dfs(dist);
+    visited= false; 
+}
+
+조합
+
+
+dfs(){
+
+    for(j = i + 1; ){
+        selected = j
+        dfs(j);
+    }
+}
+
+
+중복 순열 
+vistied x 
+중복 조합 
+j = i 
+
+
+backtrack(){
+
+    backtack(yes)
+    backtrack(no)
+}
+
+
+backtrack{
+
+}
+
+//greedy
+
+이번이 다음에 영향 x 
+
+sort 만되면 문제 x
+
+
+
+1. 최대한 많은 
+
+sort()
+
+for(){
+    if(sum +  <= budget){
+        sum += 
+        count+=
+    }
+}
+
+2. 짝짓기
+//right 는 무조건 됨. 
+
+while(left <= right){
+    if(){
+        left++; 
+    }
+    right --;
+    count++; 
+}
+
+
+3. 기준이 다를 수 있음. 
+
+
+
+sort()
+
+for(){
+
+}
+
+
+4. start, end 
+
+
+sort(end기준)
+camera = min_value
+for(){
+    if(camera < start){
+        count ++; 
+        count ++; 
+    }
+}
+
+
+for(1){
+    if(deque.peekLasat < 현재){
+        if(k){
+            지우고 넣기 
+        }
+    }
+}
+
+for(--){
+    if(max < cur){
+        max = cur
+    }else{
+        buyit 
+    }
+
+}
+
+
+//다익스트라
+
+
+최소비용, 거리 상관 없음. 
+
+
+시간 복잡도? 
+
+
+1. 기본형
+
+class Node(){
+    to
+    cost
+
+    public void Node(){
+        this.
+    }
+}
+
+
+Queue<Node> pq = new PriorityQueue<>();
+dist[]
+Arrays.fill(dist, -1);
+
+
+dist[0] = 0;
+pq.offer(new Node());
+
+
+while(){
+    now
+    cost 
+
+    if(target){
+        return 
+    }
+    if(cost < dist[]){
+        continue
+    }
+
+    for(){
+        nextCost = cost + next
+        if(nextCost < dist[]){
+            dist[] = nextCost
+            queue.offer();
+        }
+    }
+}
+
+
+for()
+
+#union-find
+
+합치거나, ?
+
+
+시간 복잡도 ? 
+
+
+1. 기본형
+
+
+boolean union(){
+    if(find(a)== b){
+        return false
+    }
+
+    parent[a] = b
+    return tre
+}
+
+String find(){
+    if(preant[] == a){
+        return a
+    }
+
+    return parent[a] = find(parent[a]);
+}
+
+
+2. map 도 가능 
+
+
+find(){
+    if(!map.containsKey){
+        return 
+    }
+    return 
+}
+
+map.put(key , + 1 )
+
+
+
+for(){
+    if(union){
+        -- 
+    }
+}
+
+3. 위상정렬 
+
+
+순서가 있는 해야 할 일 
+
+
+1. 기본형
+
+list<Integer>[] lsit = new ArryList[];
+
+for(){
+    arr[].add(b)
+    indegree[b]++;
+}
+
+for(){
+    if(indegree == 0){
+        queue.offer();
+    }
+}
+
+while(queue.isEmpty!){
+    pollFirst();
+    count ++; 
+    for(){
+        indegree --; 
+        if(0){
+            pollLast()
+        }
+    }
+
+}
+//다 된 것. 
+if(count == n){
+
+}
+
+
+for(){
+    Math.max(dp[next], dp[now] + time())
+
+    indgree --; 
+}
+
+//트리 
+
+부모 자식 노드, 트리, 하위 노드 
+
+
+
+1. 기본형
+
+dfs(0, 0)
+
+dfs(now, parent){
+    count = 1
+    ture
+    for(graph[now]){
+        if(parent){
+            conitnue
+        }
+        
+        count += dfs(now)
+    }
+    return count; 
+}
+
+
+2. 가중치
+dfs(now, parent, dis t){
+    count = 1
+    ture
+    for(graph[now]){
+        if(parent){
+            conitnue
+        }
+        
+        count += dfs(now)
+    }
+    return count; 
+}
+
+max 
+
+//dp
+모든 경우의 수 
+dp 30 이하
+
+
+최대, 최소, 
+
+현재의 나 : max( )+ a
+
+for(){
+
+    if(r > 0) dp[i] = Math.max(현, dp[r-1][c])
+}
+
+
+lis 
+
+최소길이 
+
+
+
+for(){
+    for(j = 0; j <i){
+        if(arr[j] < arr[i]){
+            dp[i] = max(dp[i], dp[j]+1)
+        }
+    }
+}
+
+
+0/1 배낭 
+
+for(전체 ){for(coin){
+
+    Math.max(dp[i], dp[i - a] + vlaue)
+}}
+
+
+//완전 탐색 
+
+해보는게 나을 때 모든 경우, n 이 작을 때 
+
+
+2중 for문 5000, 3중 for 문 500
+
+for(){
+    for(j = i + 1 )
+}
+
+//구현 
+
+규칙, 그냥 하면 될 때 
+
+
+1. 2차원 
+
+
+nr = r
+nc = c
+while(){
+        
+    nr = r
+    nc = c
+    nr += dr
+    nc += dc
+
+    if( ){
+        break
+    }
+
+    r = nr
+    c = nc
+}
+
+(d + 1) % 3
+(d + 3) % 3
+
+for(){
+    for(){
+        new[c][n - 1- r] = original[r][c]
+    }m - 1 - c
+
+}
+
+
+
+possible = true
+
+for(){
+    if(){
+        false
+
+    }
+}
+
+
+
+row = n -1;
+
+for(r){
+    if(block){
+        block = 0
+        row 
+        row --; 
+    }
+}
+
+
+boolean[][] = true
+deque = offerLast()
+
+
+//이분탐색
+
+
+탐색, n 이 클 때 10만 ~100만
+
+
+1. 기본형
+//left - right 겹치면 안돼. 다 한딱까리 하는지. 
+while(left<=right){
+    mid = left + (right -left) / 2 
+
+    if(mid == traget){
+
+    }else if(){
+        
+    }else 
+}
+
+
+2. 기준 점 안에 
+
+
+while(left<right){
+    mid = left + (right -left) / 2 
+
+    count = mid / time; 
+
+    if(count > target){
+        answer = count
+        left ++; 
+
+    }else if(){
+        
+    }else 
+}
+
+//투 포인터 
+
+언제쓰나요? 
+for, 이중 for 
+
+
+1. 기본형
+
+1-1. 양방향 
+
+left = 0
+right  = length -1
+
+
+for(left <= right){
+    if(left + right){
+
+    }
+}
+
+1-2. 동방향 
+
+
+최소길이는 안에서 확인
+
+for(){
+
+    while(조건){
+        answer = Math.mi
+        left ++; 
+    }
+}
+최대 길이는 밖에서 확인
+
+
+for(){
+
+    while(조건이 맞을 때 까지){
+        left++;
+    }
+    Math.max(); 
+}
+
+//sliding window
+
+
+고정 길이 
+
+for문
+
+
+1. 기본형
+
+
+for(){
+    sum += 
+}
+
+
+for(){
+    sum -= arr[right`]
+    sum += arr[right - k ]
+
+
+}
+
+
+for(){
+    sum -= arr
+}
+
+prefix
+
+
+
+차분배열 
+
+
+
+graph[r][c] +=
+graph[r][c+1] -=
+graph[r+1][c] -=
+graph[r+1][c+1] +=
+
+
+for(r){
+    sum += 
+    arr += sum 
+}
+
+for(c){
+
+}
+
+2차원
+
+
+graph[r+1][c + 1] = graph[r][c + 1] + graph[r+1][c] - graph[r-1][c-1] + arr[r][c]
+graph[r2+1][c2+1] - graph[r2+1][c1+1] -graph[r1+1][c2+1]  +  graph[r][c] 
+
+prefix[i+1] = prefix[i] + arr[i];
+,
+3~6 = prefix[7]- prefix[3]
+
+
+prefix[] - prefix[]
+
+
+for(){
+    sum += value; 
+    mod = ((sum % mod)+ mod) % mod; 
+    
+}
+
+//요격시스템 
+
+sort(arr,  (a, b) -> { return Integer.compare(a[1], b[1])});
+value = min
+for(arr){
+    if(value < start){
+        + 1
+        target = 
+    }
+}
+
+//기능개발
+
+int deployDay = (100 - arr[0]) / speed[0];
+
+for(){
+    day = 
+    if(deployDay > day){
+        count++
+    }else{
+        list.add();
+        deployDAay = day; 
+        count = 0; 
+    }
+}
+
+//문자열 압축 
+
+for(i = 0; i < length / 2; i++){
+    unit = str.subStirng(0, i);
+    
+    for(i = unit; i < length / 2; i += unit){
+        unit2 = str.subString(i , i+ unit);
+
+        if(unit == unit2){
+            count ++
+        }else{
+            sb.append(' '+ count + unit);
+            unit = unit 2; 
+        }
+    }
+
+}
+
+
+//베스트 앨범 
+
+속한 노래가 많이 재생된 장르를 먼저 수록합니다.
+장르 내에서 많이 재생된 노래를 먼저 수록합니다.
+장르 내에서 재생 횟수가 같은 노래 중에서는 고유 번호가 낮은 노래를 먼저 수록합니다.
+
+for(){
+    map.put(genre, map.getOrDefault() + plays[])
+    map.computeIfAbsent(genre, k -> new ArrayList<>()).add(int[]{i, plays[i]});
+}
+
+ArrayList(keyMap.keySet());
+
+sort(keyMap, (a, b) -> {
+    Integer.compare(map.get(a) , map.get(b)); 
+})
+
+
+for(){
+    list = songs.get(genre);
+    list.sort((a, b) -> {
+        if(a[1] != b[1])
+    })
+}
+
+//영어 끝말잇기 
+
+for(){
+    if(set.contains()){
+        return (i + 1)  % 3
+    }
+    if(str.charAt(str.length() -1 ) == arr[i].charAt()); {
+        return 
+    }
+    set.add(); 
+
+}
+
+//프로세스 
+
+max().getAsInt();
+
+
+for(){
+    if(){
+
+    }
+}
+
+//벽 뚫고 가기 
+
+
+
+visited[0][0] =true; 
+queue.offerLast();
+
+while(isEmpty){
+    x  y break = queue.pollFirst()
+
+    for(4){
+        if(넘으면 ) continue; 
+        if(map[][] == "0"){
+            visited = true;
+            offerLast()
+        }else{
+            if(brak == 0){
+                visitd = true;
+                offerLast ( , 1)
+            }
+        }
+
+    }
+}
+
+//target -> dfs
+중간에 쳐낼일이 없음. 
+static int count = 0; 
+
+dfs(){
+    if(depth == n){
+        if(target){
+            count ++; 
+        }
+    }
+
+    dfs[value + arr[depth -1], depth + 1];
+    dfs(value - arr[depth - 1], depth + 1)
+}
+
+
+
+//n-queen 
+
+
+
+backtrack(){
+
+
+    for(){
+        for(){
+            if(c == ){
+                continue
+            }
+            if(abs(c1 - c2) == abs(r1 - r2)){
+                conitnue
+            }
+            selected[] = 
+            if(){
+            dfs(몇번째인지 )
+            }else{
+                return 
+            }
+
+        }
+    }
+}
+
+//야근지수 
+
+
+for(i < n){
+    work = pq.poll();
+    work --
+    pq.offer(work);
+
+}
+for(){
+        Math.sqrt()
+}
+
+7 
+//체육복
+
+fill(arr, 1);
+for(){
+    if(lost){
+        --;
+    }
+}
+
+
+for(){
+    if(> 2){
+        //앞
+        if( i > 1  && i- 2 == 0){
+            --
+            ++
+        }
+        if( i != n - 1 && )
+    }
+}
+
+6
+//숫자 문자열 
+
+for(){
+    str.replace(arr[i], i)
+}
+
+Integer.parseInt(str)
+
+System.out.println(s)
+
+5
+//할인행사 
+
+
+for(){
+    map.put(key, putIfAbsent()); 
+}
+
+
+for(10){
+    map + 1; 
+}
+
+for(11){
+    right - k; 
+
+    if(map.equals)
+}
+
+4
+//펄스 연속 
+
+
+for(){
+    if(i % 2 == 0){
+        
+    }
+
+    num *= (i % 2 == 0)? -1 : 1'
+
+    sum = Math.max(sum , sum + num); 
+
+}
+
+max= Math.max(max, sum);
+min = Math.main(min, sum); 
+mod =  1,000,000,007;
+
+
+for(coin){
+    for(amount = coin  <= n){
+        dp[amout] = dp(amount) + 
+    }
+}
+
+
+dist
+pq
+
+dist[][][] = 100; //시작점 
+
+while(){
+
+}
+
+//양과 늑대 
+
+
+
+dfs(now, ){
+    shepp 여부 
+    if(){
+        return 
+    }
+
+
+    copy = new ArayLst(candidtates);
+
+    copy.remove(me);
+
+    for(){
+        add
+    }
+
+    for(nextCandidiate){
+        dfs(next, )
+    }
+    
+}

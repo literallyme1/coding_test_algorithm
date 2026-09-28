@@ -369,3 +369,46 @@ dfs(){
 }
 
 
+
+
+greedy
+
+sort -> 싼거 부터 sum if( sum ){ sum += } //다시사용 priorityQue for(){
+    max()
+}
+
+for(){
+    if()
+}
+for(--){
+    if(max < ){
+        max= 
+    }
+    sum += max -
+}
+
+split(-)
+
+
+for(){
+    sum
+}
+
+for(){
+    while(){
+
+        left ++; 
+        sum -= 
+    }
+}
+
+for(){
+    if(){
+
+    }
+
+}
+
+#dp 
+
+List<Integer>[] list = new ArrayList[];
