@@ -1,0 +1,481 @@
+
+
+//프로세스 
+
+Deque<Integer> qeque = new ArrayDeque<>(list);
+
+
+while(isEmpty){
+
+    queue.pollFirst();
+    hihg = true
+    for(){
+        if queue > {
+            false
+        }
+    }
+    
+    if(true){
+        count++;
+        if(location )
+
+    }else{
+        offerLast
+    }
+
+}
+
+
+//n-queen 
+
+
+backtrack(depth){
+    if(){
+
+    }
+
+    for(4){
+        if(canPlace()){
+            selected[depth] = i;
+            backtrack(depth+1)
+        }
+    }
+
+}
+
+private void canPlace(){
+    for(){
+        seleceted[i] = loc{return false}
+
+        abs(x - depth) == abs(y - loc); 
+    }
+}
+
+
+max = arr.stream().max().getAsInt();
+mid = left + right / 2 
+
+whle(left <= right){
+    for(){
+        if(num <mid){
+            count++; 
+            if(count){
+                break; 
+            }
+        }else{
+            count = 0; 
+        }
+    }
+
+    if(possible){
+        answer = mind;
+        left  = mid +1; 
+    }
+}
+
+//할인 행사 
+
+for(){
+    map.( , )
+}
+
+for(){
+    if(< ){
+        map.
+        continue;
+    }
+    map.equals(map2){
+        count++
+    }
+    map.추가
+    map. i - k --
+    if(remove 0)
+
+}
+
+map.equals(map2){
+    count++
+}
+
+
+펄스
+
+
+for(){
+
+    max()2
+}
+
+
+
+//거스름돈 
+
+
+
+for(coin){
+    for(coin < n ++){
+        dp[amout]  = dp[amout] + dp[amount - coin]
+    }
+}
+
+//최소 거스름돈
+min_value 
+for(coin){
+    for(){
+        dp[amount] = min(dp[amoumt])
+    }
+}
+
+// 경주로 건설 
+
+
+dist[][][4]
+
+inf = MAX_VALUE
+for(4){
+    
+    dist = 100; 
+    pq.offer()
+
+}
+
+
+while(){
+    now, nowCst, dir = poll();
+
+    if(cost < dist[][][]){
+        conitnue;
+    }
+
+    for(4){
+
+        if(dir ==){
+            cost + 100
+        }else{
+            cost + 600
+        }
+
+        if(dist[nr][nc][] <cost){
+            dist = cost
+            pq.
+        }
+    }
+
+}
+
+
+//호텔 방배정 
+
+
+
+find(){
+
+    if(!map.containsKey()){
+        return room;
+    }
+
+    nr = find(map.get(room));
+    map.put(room, nextRoom);
+    return nextRoom; 
+}
+
+
+for(){
+
+    find
+
+    map.put(room, room+ 1)
+}
+
+//위상정렬 
+
+
+
+for(){
+    a.add(b)
+    indegree[] ++;
+}
+for(){
+    0인거
+}
+
+while(){
+    pollFirst()
+
+    for(){
+        answer.add
+        indegree --; 
+        if(0){
+            추가
+        }
+    }
+}
+
+arr.stream().mapToInt(Integer::IntValue).toArray
+
+//양과 늑대 
+
+
+dfs(){
+    
+    //개수
+    sheep
+    wolf
+    //ko
+    if(){
+        return;
+    }
+    //copy
+
+    //child 추가 
+
+    remove me 
+
+    for(){
+        dfs(wolf, sheep, now, list);
+    }
+
+}
+
+while(){
+
+    for(){
+        
+        nr = r
+        nc = c
+        if(도착지점)
+
+        while(){
+
+            nr + 1
+
+            if() break
+            if() break
+
+            nr =
+            nc = 
+        }
+
+        if(visited!){
+            dist = 값 
+            queue.
+        }
+    }
+}
+
+
+for(unit       lenght / 2){
+
+    for(j = unit   j < lenth ; j += ){
+        Math.max(i + unit, s.length());
+        substring
+        if(prev.equals){
+            count++
+        }else{
+            count > 1
+            sb.append
+        }
+    }
+}
+
+
+1&2차원 
+
+int [][] 
+
+List<Integer>[] arr = new ArrayList[];
+
+
+arr.length
+arr[0].length
+
+
+1d.clone();
+Arrays.copyOfRange(arr, start, end);
+Arrays.equal(a, b);
+
+//ArrayList
+
+new ArrayList
+
+list.size();
+list.contains();
+
+list.stream().mapToInt(Integer::intValue).toArray();
+
+list.remove
+list.remove(Integer.valueOf());
+
+list.clear();
+list.indexOf(value);
+list.get(i);
+list.set(index, value);
+
+
+
+StringBuilder sb = new StringBuilder();
+sb.append();
+sb.delete(start, end);
+sb.deleteCharAt();
+sb.reverse();
+sb.toString();
+sb.setCharAt(i, v);
+
+
+str.split(); //- / 빼고 앞에 다 \\  ,  이 이상 +, 2개 \\.\\.
+str.trim();
+str.charAt();
+str.replace();
+str.contains();
+str.lenght();
+str.startsWith
+str.endsWith
+Character.isLetter, isDigit, isLetterOrDigit
+str.toCharArray();
+str.equals();
+str.compareTo(b) 
+str.indexOf()
+String.valueOf(i)
+
+
+//HashMap
+
+Map<> map = new HashMap<>();
+
+map.put
+map.getOrDefault
+map.get(key)
+map.size
+map.equasl(map2)
+map.containsKey 
+map.remove(key);
+
+
+map.keySet
+map.valueSet
+Map.Entry<> entrys = mape.entrySEt;
+
+List<Map.Entry<>> = new ArrayList<>(map.entrySet)
+entry.getKey
+entry.getValue
+
+map.putIfAbsent(key, value); //없을 때만 
+map.computeIfAbsetn(key, k -> new ArrayList<>()).add();
+
+
+set
+
+Set<int> set = new HashSet<>();
+
+set.size();
+set.add();
+set.contains();
+
+
+set.retainAll(set2)//교집합
+set.addAll(set2)//합집합
+set.removeAll
+
+
+
+Queue<Integr> pq = new PriorityQueue<>((a, b) -> {
+    if(){
+
+    }
+    return Itne
+})
+
+list.sort(Collections.reverseOrder());
+list.sort(Comparator.naturalOrder());
+
+
+
+bfs
+1000
+
+
+1. 기본형
+
+
+while(){
+    queue.pollFirst
+
+    for(){
+        if() continue
+        if() conitnue
+
+
+    }
+}
+
+
+for(){
+
+    arr[i] *  k 
+}
+
+if(depth == r){
+    return 
+}
+
+nr < 0 || nr >= r || nc < 0 || nc >= c
+
+
+new[c][n-1-r] = original[r][c]
+
+
+sum = prefix[r2+1][c2+1] - prefix[r][c2+1] - previx[][] + prefix[r][c]
+
+sum 
+
+anser = sum - k 
+put
+
+
+sum % mod + mod % mod;
+anser = count[mod] 
+
+Integer.toString(arr, n).toUpperase(); 
+
+
+Arrays.asList()
+
+a-b + mod ) %mod 
+
+
+
+n* (n+1) /2
+
+arr[] -> list<String> 
+HashSet(Arrays.asList(strList))
+
+
+Integer.toString(arr, n).toUpperCase();
+
+(a-b + mod ) % mod 
+
+(int) Math.ceil((double) a/b);
+
+
+r * M + c
+
+
+a-b + mod % mod 
+
+
+Arrays.asLsit
+
+
+String[] = arr.split(":');
+
+Integer.parseInt();
+
+total = hour * 60 + mint
+
+
+
+
+total / 60
+String.format("%02d:)
+
+String.format("%02d:%02d", a, b);
