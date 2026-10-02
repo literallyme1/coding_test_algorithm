@@ -1,0 +1,177 @@
+
+
+
+bfs(){
+    r, c= queue.poll
+
+    if(n-1 , c-1 ){
+        return 
+    }
+
+    for(4){
+        nr, nc
+        if()continue;
+        
+        if( -1) continue;
+        dist[nr][nc] = dist[r][c] +1;
+        queue.offerLast 
+    }
+
+
+}
+
+
+
+dfs(){
+
+    visited = true; 
+    count = 1; 
+    count = 1; 
+    for(4){
+        if() continue 
+        visited
+        count += dfs()
+    }
+    return count 
+}
+
+
+//순열 
+
+backtrack(){
+
+    for(){
+        visited = true;
+        selected[i] = i;
+    backtrack (i + 1);
+        visited = false 
+    }
+}
+
+//조합
+
+backtrack(i +1 ,depth){
+    if(depth == n){
+        if(){
+
+        }
+    }
+    for(i = i + 1; i++){
+        selected
+        dfs(depth+1);
+    }
+}
+
+//문자열 
+
+
+substring(start, end)
+
+sb.reverse();
+sb.delete(start, end);
+sb.deleteCharAt();
+str.equals()
+str.compareTo();
+str.
+
+c - '0'; -> 숫자. 
+c - 'a' 
+
+sb.setCharAt(index, value); 
+
++ . | 
+replaceAll("\\/", )
+str.equals.ignorecase()
+
+Integer.toString(num, n).toUpperase();
+
+s.startsWith(")
+s.isEmpty
+
+
+Math.ceil ((double) a / b)
+(a - b + mod)  % mod
+
+
+r * m + c2
+Math.abs(r1 - r2) == 
+
+
+Deque<Character> queen
+System.out.println(Arrays.deepToSting())
+String.format("%02d:02d", )
+Comparator
+
+
+List<ArrayList>[] = new ArrayList[n{1}']
+
+
+HashSet<>(Arrays.asList(String[]));
+
+List<Entry<Integer, stirng>> entrys = new hashmap<>(map.entrySet());
+
+Map<String, List<Integer>> map = new HashMap
+entyr.getKey()' 
+
+compureIfAbsent( k -> new ArrayLsit<>())
+
+
+HashSet<>(set)
+set.retainAll()
+set.addAll
+set.removeAll
+
+
+
+right{
+    while(left){
+        int anser 
+        left ++; 
+    }
+}
+
+
+rith(){
+    whihle(){
+        left++
+    }
+    int max = 
+}
+
+whiler(){
+    if(abs () < abS()
+    if sum == target
+
+}
+
+
+for(1){
+    sum - = 
+    next= i + k -1 %naturalOrder
+
+}
+
++=
+-= 
+-= 
++=
+
+
+prefix = prefix[o] + arr
+
+
+
+jcoun t [sum - k]
+count[sum] ++; 
+
+
+
+
+
+pefix[r1][c+1] + - r1c1 + arr
+
+
+r2 + 1 c2 + 1 prefix[r2 +1][c1] + r1 c2  +   
+
+
+%mod + mod %mod 
