@@ -1,0 +1,52 @@
+'3' - '0' = 3
+'b' - '0' = 2 //26
+(char) i + 'a'
+
+
+a.equals(b)
+a.equalsIgnoreCase()
+n(n+1)/2
+r * m + c1
+
+
+Arrays.asList(int)
+
+replaceAll("//")
+e.startsWith()
+e.endsWith
+
+(int)Math.ceil((double) a / b)
+
+(a -b + mod) % mod 
+
+sb.setCharAt()
+System.out.printf(")
+String.format("02)
+lis.indexOf()'
+list.set()
+
+List<Integer> = Arra[]
+
+
+replace 
+
+split()
+pq.poll();
+
+if(pq.isEMty ** pq.peek() <= start){
+    pq.poll()
+}
+pq.offer();
+
+return pq.size();
+
+
+while(count < n){
+    //index -> 큐 삽입 
+    while 
+
+    if(){
+
+    }
+}
+Comparator
